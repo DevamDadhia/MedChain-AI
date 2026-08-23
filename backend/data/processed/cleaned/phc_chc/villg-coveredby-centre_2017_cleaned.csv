@@ -1,0 +1,38 @@
+S._No.,State/_UT,Average_Number_of_Villages_covered_by_a_sub_Centre,Average_Number_of_Villages_covered_by_a_PHC,Average_Number_of_Villages_covered_by_a_CHC,Number_of_Sub_Centres_per_PHC,Number_of_PHCs_per_CHC
+1,Andhra Pradesh,2,15,88.0,7,6.0
+2,Arunachal Pradesh,18,39,89.0,2,2.0
+3,Assam,6,26,167.0,5,6.0
+4,Bihar,5,24,299.0,5,13.0
+5,Chhattisgarh,4,26,119.0,7,5.0
+6,Goa,2,14,84.0,9,6.0
+7,Gujarat,2,13,50.0,7,4.0
+8,Haryana,3,19,61.0,7,3.0
+9,Himachal Pradesh,10,38,232.0,4,6.0
+10,Jammu & Kashmir,2,10,78.0,5,8.0
+11,Jharkhand,8,109,172.0,13,2.0
+12,Karnataka,3,12,142.0,4,11.0
+13,Kerala,0,1,4.0,6,4.0
+14,Madhya Pradesh,6,47,178.0,8,4.0
+15,Maharashtra,4,24,121.0,6,5.0
+16,Manipur,6,30,152.0,5,5.0
+17,Meghalaya,16,63,253.0,4,4.0
+18,Mizoram,2,15,92.0,6,6.0
+19,Nagaland,4,11,68.0,3,6.0
+20,Odisha,8,40,139.0,5,3.0
+21,Punjab,4,29,83.0,7,3.0
+22,Rajasthan,3,21,77.0,7,4.0
+23,Sikkim,3,19,226.0,6,12.0
+24,Tamil Nadu,2,12,42.0,6,4.0
+25,Telangana,2,16,94.0,7,6.0
+26,Tripura,1,9,42.0,11,4.0
+27,Uttarakhand,9,65,280.0,7,4.0
+28,Uttar Pradesh,5,29,130.0,6,4.0
+29,West Bengal,4,44,115.0,11,3.0
+30,A & N Island,5,25,139.0,6,6.0
+31,Chandigarh,0,2,3.0,6,2.0
+32,Dadra & Nagar Haveli,1,7,,8,
+33,Daman & Diu,1,5,10.0,7,2.0
+34,Delhi,11,22,,2,
+35,Lakshadweep,2,5,7.0,4,1.0
+36,Puducherry,1,2,23.0,2,10.0
+All India,All India,4,25,114.0,6,5.0

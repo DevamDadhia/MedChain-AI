@@ -1,0 +1,116 @@
+========== HMIS DATASET PROFILE ==========
+
+SHAPE:
+(20368, 69)
+
+COLUMNS:
+- District
+- S.No.
+- Parameters
+- Type
+- April - Total [(A+B) or (C+D)]
+- April - Public [A]
+- April - Private [B]
+- April - Urban [C]
+- April - Rural [D]
+- May - Total [(A+B) or (C+D)]
+- May - Public [A]
+- May - Private [B]
+- May - Urban [C]
+- May - Rural [D]
+- June - Total [(A+B) or (C+D)]
+- June - Public [A]
+- June - Private [B]
+- June - Urban [C]
+- June - Rural [D]
+- July - Total [(A+B) or (C+D)]
+- July - Public [A]
+- July - Private [B]
+- July - Urban [C]
+- July - Rural [D]
+- August - Total [(A+B) or (C+D)]
+- August - Public [A]
+- August - Private [B]
+- August - Urban [C]
+- August - Rural [D]
+- September - Total [(A+B) or (C+D)]
+- September - Public [A]
+- September - Private [B]
+- September - Urban [C]
+- September - Rural [D]
+- October - Total [(A+B) or (C+D)]
+- October - Public [A]
+- October - Private [B]
+- October - Urban [C]
+- October - Rural [D]
+- November - Total [(A+B) or (C+D)]
+- November - Public [A]
+- November - Private [B]
+- November - Urban [C]
+- November - Rural [D]
+- December - Total [(A+B) or (C+D)]
+- December - Public [A]
+- December - Private [B]
+- December - Urban [C]
+- December - Rural [D]
+- January - Total [(A+B) or (C+D)]
+- January - Public [A]
+- January - Private [B]
+- January - Urban [C]
+- January - Rural [D]
+- February - Total [(A+B) or (C+D)]
+- February - Public [A]
+- February - Private [B]
+- February - Urban [C]
+- February - Rural [D]
+- March - Total [(A+B) or (C+D)]
+- March - Public [A]
+- March - Private [B]
+- March - Urban [C]
+- March - Rural [D]
+- Total - Total [(A+B) or (C+D)]
+- Total - Public [A]
+- Total - Private [B]
+- Total - Urban [C]
+- Total - Rural [D]
+
+
+DATA TYPES:
+District                              str
+S.No.                                 str
+Parameters                            str
+Type                                  str
+April - Total [(A+B) or (C+D)]    float64
+                                   ...   
+Total - Total [(A+B) or (C+D)]    float64
+Total - Public [A]                float64
+Total - Private [B]               float64
+Total - Urban [C]                 float64
+Total - Rural [D]                 float64
+Length: 69, dtype: object
+
+MISSING VALUES:
+District                              0
+S.No.                                 0
+Parameters                            0
+Type                                  0
+April - Total [(A+B) or (C+D)]     4156
+                                  ...  
+Total - Total [(A+B) or (C+D)]     2158
+Total - Public [A]                 9536
+Total - Private [B]               17582
+Total - Urban [C]                 11780
+Total - Rural [D]                  9543
+Length: 69, dtype: int64
+
+FIRST 5 ROWS:
+  District    S.No.  ... Total - Urban [C] Total - Rural [D]
+0   Araria    '1.1'  ...           14325.0          102368.0
+1   Araria  '1.1.1'  ...            6069.0           55549.0
+2   Araria  '1.2.1'  ...            7138.0           54192.0
+3   Araria  '1.2.2'  ...            6240.0           47877.0
+4   Araria  '1.2.3'  ...            5421.0           39410.0
+
+[5 rows x 69 columns]
+
+==========================================

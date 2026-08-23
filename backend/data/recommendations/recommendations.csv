@@ -1,0 +1,1001 @@
+item_id,item_name,vendor_id,vendor_name,current_stock,minimum_required,average_daily_usage,lead_time_days,estimated_days_to_stockout,recommended_reorder_quantity,unit_cost,estimated_reorder_cost,risk_level,priority,priority_score,action,reason
+103,Ventilator,V002,EquipMed Co.,694.0,945.0,373.0,6.0,1.86,4963.0,18008.8,89377674.4,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+103,Ventilator,V002,EquipMed Co.,694.0,945.0,373.0,6.0,1.86,4963.0,18008.8,89377674.4,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+107,Surgical Mask,V003,HealthTools Ltd.,160.0,427.0,481.0,17.0,0.33,5320.0,16158.21,85961677.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+107,Surgical Mask,V003,HealthTools Ltd.,160.0,427.0,481.0,17.0,0.33,5320.0,16158.21,85961677.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+103,Surgical Mask,V002,EquipMed Co.,729.0,744.0,233.0,12.0,3.13,4493.0,14231.58,63942488.94,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+103,Surgical Mask,V002,EquipMed Co.,729.0,744.0,233.0,12.0,3.13,4493.0,14231.58,63942488.94,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+102,IV Drip,V003,HealthTools Ltd.,351.0,590.0,362.0,26.0,0.97,3930.0,15038.14,59099890.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+102,IV Drip,V003,HealthTools Ltd.,351.0,590.0,362.0,26.0,0.97,3930.0,15038.14,59099890.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+104,X-ray Machine,V002,EquipMed Co.,125.0,650.0,310.0,4.0,0.4,3657.0,15274.29,55858078.53,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+104,X-ray Machine,V002,EquipMed Co.,125.0,650.0,310.0,4.0,0.4,3657.0,15274.29,55858078.53,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+103,IV Drip,V001,MedSupplies Inc.,601.0,865.0,402.0,27.0,1.5,2454.0,19984.16,49041128.64,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+103,IV Drip,V001,MedSupplies Inc.,601.0,865.0,402.0,27.0,1.5,2454.0,19984.16,49041128.64,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+101,X-ray Machine,V003,HealthTools Ltd.,457.0,727.0,429.0,3.0,1.07,2604.0,16084.3,41883517.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+101,X-ray Machine,V003,HealthTools Ltd.,457.0,727.0,429.0,3.0,1.07,2604.0,16084.3,41883517.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+102,Surgical Mask,V002,EquipMed Co.,243.0,370.0,55.0,4.0,4.42,2895.0,13348.52,38643965.4,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+102,Surgical Mask,V002,EquipMed Co.,243.0,370.0,55.0,4.0,4.42,2895.0,13348.52,38643965.4,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+101,Gloves,V001,MedSupplies Inc.,156.0,403.0,486.0,24.0,0.32,2291.0,15351.22,35169645.02,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+101,Gloves,V001,MedSupplies Inc.,156.0,403.0,486.0,24.0,0.32,2291.0,15351.22,35169645.02,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+107,Surgical Mask,V002,EquipMed Co.,534.0,813.0,31.0,16.0,17.23,1910.0,18171.78,34708099.8,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+107,Surgical Mask,V002,EquipMed Co.,534.0,813.0,31.0,16.0,17.23,1910.0,18171.78,34708099.8,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+105,IV Drip,V002,EquipMed Co.,123.0,502.0,257.0,11.0,0.48,2038.0,16620.81,33873210.78,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+105,IV Drip,V002,EquipMed Co.,123.0,502.0,257.0,11.0,0.48,2038.0,16620.81,33873210.78,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+102,Ventilator,V001,MedSupplies Inc.,305.0,598.0,104.0,6.0,2.93,3613.0,8929.95,32263909.35,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+102,Ventilator,V001,MedSupplies Inc.,305.0,598.0,104.0,6.0,2.93,3613.0,8929.95,32263909.35,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+103,IV Drip,V001,MedSupplies Inc.,205.0,639.0,25.0,1.0,8.2,3987.0,7999.22,31892890.14,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+103,IV Drip,V001,MedSupplies Inc.,205.0,639.0,25.0,1.0,8.2,3987.0,7999.22,31892890.14,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+100,IV Drip,V003,HealthTools Ltd.,377.0,527.0,169.0,21.0,2.23,3382.0,9197.56,31106147.92,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+100,IV Drip,V003,HealthTools Ltd.,377.0,527.0,169.0,21.0,2.23,3382.0,9197.56,31106147.92,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+100,Ventilator,V002,EquipMed Co.,690.0,839.0,353.0,1.0,1.95,2172.0,12144.29,26377397.88,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+100,Ventilator,V002,EquipMed Co.,690.0,839.0,353.0,1.0,1.95,2172.0,12144.29,26377397.88,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+101,IV Drip,V001,MedSupplies Inc.,385.0,518.0,199.0,22.0,1.93,5269.0,4744.54,24998981.26,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+101,IV Drip,V001,MedSupplies Inc.,385.0,518.0,199.0,22.0,1.93,5269.0,4744.54,24998981.26,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+103,Gloves,V002,EquipMed Co.,359.0,633.0,394.0,27.0,0.91,3458.0,7157.67,24751222.86,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+103,Gloves,V002,EquipMed Co.,359.0,633.0,394.0,27.0,0.91,3458.0,7157.67,24751222.86,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+105,Ventilator,V001,MedSupplies Inc.,200.0,484.0,470.0,15.0,0.43,1410.0,17451.66,24606840.6,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+105,Ventilator,V001,MedSupplies Inc.,200.0,484.0,470.0,15.0,0.43,1410.0,17451.66,24606840.6,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+106,X-ray Machine,V003,HealthTools Ltd.,847.0,918.0,387.0,26.0,2.19,3159.0,7118.28,22486646.52,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+106,X-ray Machine,V003,HealthTools Ltd.,847.0,918.0,387.0,26.0,2.19,3159.0,7118.28,22486646.52,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+107,Ventilator,V001,MedSupplies Inc.,161.0,521.0,92.0,20.0,1.75,1311.0,15682.5,20559757.5,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+107,Ventilator,V001,MedSupplies Inc.,161.0,521.0,92.0,20.0,1.75,1311.0,15682.5,20559757.5,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+105,Gloves,V001,MedSupplies Inc.,423.0,535.0,222.0,21.0,1.91,1400.0,14048.5,19667900.0,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+105,Gloves,V001,MedSupplies Inc.,423.0,535.0,222.0,21.0,1.91,1400.0,14048.5,19667900.0,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+103,Gloves,V001,MedSupplies Inc.,139.0,520.0,65.0,8.0,2.14,4463.0,4034.61,18006464.43,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+103,Gloves,V001,MedSupplies Inc.,139.0,520.0,65.0,8.0,2.14,4463.0,4034.61,18006464.43,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+107,IV Drip,V003,HealthTools Ltd.,644.0,850.0,110.0,2.0,5.85,993.0,17473.68,17351364.24,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+107,IV Drip,V003,HealthTools Ltd.,644.0,850.0,110.0,2.0,5.85,993.0,17473.68,17351364.24,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+107,Surgical Mask,V003,HealthTools Ltd.,221.0,791.0,472.0,18.0,0.47,3159.0,4865.33,15369577.47,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+107,Surgical Mask,V003,HealthTools Ltd.,221.0,791.0,472.0,18.0,0.47,3159.0,4865.33,15369577.47,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+103,Gloves,V001,MedSupplies Inc.,334.0,522.0,238.0,10.0,1.4,2424.0,6177.68,14974696.32,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+103,Gloves,V001,MedSupplies Inc.,334.0,522.0,238.0,10.0,1.4,2424.0,6177.68,14974696.32,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+108,Ventilator,V002,EquipMed Co.,104.0,619.0,6.0,18.0,17.33,2279.0,6457.32,14716232.28,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+108,Ventilator,V002,EquipMed Co.,104.0,619.0,6.0,18.0,17.33,2279.0,6457.32,14716232.28,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+108,X-ray Machine,V001,MedSupplies Inc.,715.0,953.0,392.0,25.0,1.82,760.0,18305.37,13912081.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+108,X-ray Machine,V001,MedSupplies Inc.,715.0,953.0,392.0,25.0,1.82,760.0,18305.37,13912081.2,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+105,IV Drip,V003,HealthTools Ltd.,151.0,805.0,106.0,14.0,1.42,711.0,19561.59,13908290.49,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+105,IV Drip,V003,HealthTools Ltd.,151.0,805.0,106.0,14.0,1.42,711.0,19561.59,13908290.49,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+104,IV Drip,V002,EquipMed Co.,466.0,901.0,406.0,25.0,1.15,4757.0,2766.57,13160573.49,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+104,IV Drip,V002,EquipMed Co.,466.0,901.0,406.0,25.0,1.15,4757.0,2766.57,13160573.49,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+101,Ventilator,V001,MedSupplies Inc.,484.0,815.0,473.0,25.0,1.02,2347.0,5590.96,13121983.12,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+101,Ventilator,V001,MedSupplies Inc.,484.0,815.0,473.0,25.0,1.02,2347.0,5590.96,13121983.12,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+102,IV Drip,V003,HealthTools Ltd.,540.0,809.0,127.0,25.0,4.25,1620.0,7107.17,11513615.4,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+102,IV Drip,V003,HealthTools Ltd.,540.0,809.0,127.0,25.0,4.25,1620.0,7107.17,11513615.4,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+105,X-ray Machine,V002,EquipMed Co.,228.0,452.0,458.0,17.0,0.5,3060.0,3419.11,10462476.6,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+105,X-ray Machine,V002,EquipMed Co.,228.0,452.0,458.0,17.0,0.5,3060.0,3419.11,10462476.6,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+104,Surgical Mask,V003,HealthTools Ltd.,542.0,589.0,411.0,3.0,1.32,785.0,8393.67,6589030.95,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+104,Surgical Mask,V003,HealthTools Ltd.,542.0,589.0,411.0,3.0,1.32,785.0,8393.67,6589030.95,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+101,Surgical Mask,V001,MedSupplies Inc.,189.0,282.0,245.0,8.0,0.77,5465.0,879.04,4803953.6,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+101,Surgical Mask,V001,MedSupplies Inc.,189.0,282.0,245.0,8.0,0.77,5465.0,879.04,4803953.6,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+108,Gloves,V001,MedSupplies Inc.,312.0,532.0,195.0,15.0,1.6,845.0,5450.73,4605866.85,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+108,Gloves,V001,MedSupplies Inc.,312.0,532.0,195.0,15.0,1.6,845.0,5450.73,4605866.85,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Gloves has critical stock-out risk.
+106,Surgical Mask,V001,MedSupplies Inc.,258.0,644.0,385.0,5.0,0.67,341.0,10657.62,3634248.42,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+106,Surgical Mask,V001,MedSupplies Inc.,258.0,644.0,385.0,5.0,0.67,341.0,10657.62,3634248.42,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+104,IV Drip,V003,HealthTools Ltd.,362.0,759.0,204.0,19.0,1.77,916.0,3938.24,3607427.84,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+104,IV Drip,V003,HealthTools Ltd.,362.0,759.0,204.0,19.0,1.77,916.0,3938.24,3607427.84,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,IV Drip has critical stock-out risk.
+106,Ventilator,V001,MedSupplies Inc.,561.0,883.0,413.0,16.0,1.36,1091.0,3070.7,3350133.7,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+106,Ventilator,V001,MedSupplies Inc.,561.0,883.0,413.0,16.0,1.36,1091.0,3070.7,3350133.7,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+105,Ventilator,V003,HealthTools Ltd.,757.0,835.0,66.0,1.0,11.47,396.0,7127.18,2822363.28,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+105,Ventilator,V003,HealthTools Ltd.,757.0,835.0,66.0,1.0,11.47,396.0,7127.18,2822363.28,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+100,Surgical Mask,V002,EquipMed Co.,69.0,440.0,410.0,14.0,0.17,1290.0,1353.1,1745499.0,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+100,Surgical Mask,V002,EquipMed Co.,69.0,440.0,410.0,14.0,0.17,1290.0,1353.1,1745499.0,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Surgical Mask has critical stock-out risk.
+102,X-ray Machine,V002,EquipMed Co.,300.0,591.0,183.0,23.0,1.64,2099.0,559.59,1174579.41,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+102,X-ray Machine,V002,EquipMed Co.,300.0,591.0,183.0,23.0,1.64,2099.0,559.59,1174579.41,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,X-ray Machine has critical stock-out risk.
+104,Ventilator,V001,MedSupplies Inc.,215.0,554.0,346.0,1.0,0.62,620.0,1536.19,952437.8,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+104,Ventilator,V001,MedSupplies Inc.,215.0,554.0,346.0,1.0,0.62,620.0,1536.19,952437.8,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+100,Ventilator,V001,MedSupplies Inc.,248.0,293.0,470.0,8.0,0.53,776.0,198.75,154230.0,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+100,Ventilator,V001,MedSupplies Inc.,248.0,293.0,470.0,8.0,0.53,776.0,198.75,154230.0,CRITICAL,URGENT,100,ORDER_IMMEDIATELY,Ventilator has critical stock-out risk.
+102,IV Drip,V003,HealthTools Ltd.,329.0,288.0,38.0,12.0,8.66,5315.0,19573.66,104034002.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.7 days, before supplier lead time of 12.0 days."
+102,IV Drip,V003,HealthTools Ltd.,329.0,288.0,38.0,12.0,8.66,5315.0,19573.66,104034002.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.7 days, before supplier lead time of 12.0 days."
+108,Surgical Mask,V001,MedSupplies Inc.,926.0,118.0,231.0,28.0,4.01,4895.0,18753.76,91799655.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.0 days, before supplier lead time of 28.0 days."
+108,Surgical Mask,V001,MedSupplies Inc.,926.0,118.0,231.0,28.0,4.01,4895.0,18753.76,91799655.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.0 days, before supplier lead time of 28.0 days."
+105,Ventilator,V002,EquipMed Co.,360.0,188.0,353.0,8.0,1.02,5336.0,16439.94,87723519.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.0 days, before supplier lead time of 8.0 days."
+105,Ventilator,V002,EquipMed Co.,360.0,188.0,353.0,8.0,1.02,5336.0,16439.94,87723519.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.0 days, before supplier lead time of 8.0 days."
+109,Ventilator,V002,EquipMed Co.,1255.0,283.0,365.0,27.0,3.44,4368.0,19414.06,84800614.08,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.4 days, before supplier lead time of 27.0 days."
+109,Ventilator,V002,EquipMed Co.,1255.0,283.0,365.0,27.0,3.44,4368.0,19414.06,84800614.08,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.4 days, before supplier lead time of 27.0 days."
+102,Gloves,V002,EquipMed Co.,965.0,559.0,446.0,24.0,2.16,4128.0,18812.8,77659238.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 24.0 days."
+102,Gloves,V002,EquipMed Co.,965.0,559.0,446.0,24.0,2.16,4128.0,18812.8,77659238.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 24.0 days."
+102,Ventilator,V002,EquipMed Co.,141.0,62.0,172.0,27.0,0.82,5649.0,13675.82,77254707.18,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.8 days, before supplier lead time of 27.0 days."
+102,Ventilator,V002,EquipMed Co.,141.0,62.0,172.0,27.0,0.82,5649.0,13675.82,77254707.18,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.8 days, before supplier lead time of 27.0 days."
+104,Gloves,V003,HealthTools Ltd.,1667.0,18.0,467.0,21.0,3.57,3883.0,18444.16,71618673.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.6 days, before supplier lead time of 21.0 days."
+104,Gloves,V003,HealthTools Ltd.,1667.0,18.0,467.0,21.0,3.57,3883.0,18444.16,71618673.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.6 days, before supplier lead time of 21.0 days."
+108,Gloves,V001,MedSupplies Inc.,1036.0,897.0,337.0,22.0,3.07,3492.0,19250.87,67224038.04,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.1 days, before supplier lead time of 22.0 days."
+108,Gloves,V001,MedSupplies Inc.,1036.0,897.0,337.0,22.0,3.07,3492.0,19250.87,67224038.04,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.1 days, before supplier lead time of 22.0 days."
+103,IV Drip,V003,HealthTools Ltd.,800.0,385.0,418.0,10.0,1.91,3492.0,19077.24,66617722.08,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 10.0 days."
+103,IV Drip,V003,HealthTools Ltd.,800.0,385.0,418.0,10.0,1.91,3492.0,19077.24,66617722.08,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 10.0 days."
+100,Gloves,V003,HealthTools Ltd.,1057.0,48.0,453.0,6.0,2.33,4015.0,16408.54,65880288.1,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.3 days, before supplier lead time of 6.0 days."
+100,Gloves,V003,HealthTools Ltd.,1057.0,48.0,453.0,6.0,2.33,4015.0,16408.54,65880288.1,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.3 days, before supplier lead time of 6.0 days."
+108,IV Drip,V001,MedSupplies Inc.,563.0,430.0,258.0,3.0,2.18,4392.0,14741.34,64743965.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 3.0 days."
+108,IV Drip,V001,MedSupplies Inc.,563.0,430.0,258.0,3.0,2.18,4392.0,14741.34,64743965.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 3.0 days."
+107,X-ray Machine,V003,HealthTools Ltd.,1457.0,89.0,480.0,29.0,3.04,4445.0,13356.24,59368486.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.0 days, before supplier lead time of 29.0 days."
+107,X-ray Machine,V003,HealthTools Ltd.,1457.0,89.0,480.0,29.0,3.04,4445.0,13356.24,59368486.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.0 days, before supplier lead time of 29.0 days."
+108,IV Drip,V002,EquipMed Co.,820.0,707.0,212.0,20.0,3.87,4960.0,11867.51,58862849.6,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.9 days, before supplier lead time of 20.0 days."
+108,IV Drip,V002,EquipMed Co.,820.0,707.0,212.0,20.0,3.87,4960.0,11867.51,58862849.6,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.9 days, before supplier lead time of 20.0 days."
+102,IV Drip,V001,MedSupplies Inc.,1793.0,278.0,210.0,13.0,8.54,3937.0,14518.01,57157405.37,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.5 days, before supplier lead time of 13.0 days."
+102,IV Drip,V001,MedSupplies Inc.,1793.0,278.0,210.0,13.0,8.54,3937.0,14518.01,57157405.37,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.5 days, before supplier lead time of 13.0 days."
+100,IV Drip,V003,HealthTools Ltd.,2906.0,872.0,282.0,26.0,10.3,2904.0,19532.82,56723309.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.3 days, before supplier lead time of 26.0 days."
+100,IV Drip,V003,HealthTools Ltd.,2906.0,872.0,282.0,26.0,10.3,2904.0,19532.82,56723309.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.3 days, before supplier lead time of 26.0 days."
+101,X-ray Machine,V003,HealthTools Ltd.,573.0,514.0,428.0,4.0,1.34,4678.0,11815.94,55274967.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 4.0 days."
+101,X-ray Machine,V003,HealthTools Ltd.,573.0,514.0,428.0,4.0,1.34,4678.0,11815.94,55274967.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 4.0 days."
+107,X-ray Machine,V003,HealthTools Ltd.,1415.0,233.0,188.0,28.0,7.53,4434.0,12244.95,54294108.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.5 days, before supplier lead time of 28.0 days."
+107,X-ray Machine,V003,HealthTools Ltd.,1415.0,233.0,188.0,28.0,7.53,4434.0,12244.95,54294108.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.5 days, before supplier lead time of 28.0 days."
+108,X-ray Machine,V002,EquipMed Co.,883.0,823.0,236.0,5.0,3.74,3302.0,15984.82,52781875.64,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.7 days, before supplier lead time of 5.0 days."
+108,X-ray Machine,V002,EquipMed Co.,883.0,823.0,236.0,5.0,3.74,3302.0,15984.82,52781875.64,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.7 days, before supplier lead time of 5.0 days."
+109,IV Drip,V003,HealthTools Ltd.,1278.0,647.0,426.0,28.0,3.0,2652.0,19782.43,52463004.36,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.0 days, before supplier lead time of 28.0 days."
+109,IV Drip,V003,HealthTools Ltd.,1278.0,647.0,426.0,28.0,3.0,2652.0,19782.43,52463004.36,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.0 days, before supplier lead time of 28.0 days."
+107,X-ray Machine,V001,MedSupplies Inc.,2270.0,284.0,405.0,21.0,5.6,2639.0,19636.33,51820274.87,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 21.0 days."
+107,X-ray Machine,V001,MedSupplies Inc.,2270.0,284.0,405.0,21.0,5.6,2639.0,19636.33,51820274.87,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 21.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,2371.0,384.0,470.0,6.0,5.04,3191.0,16062.98,51256969.18,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.0 days, before supplier lead time of 6.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,2371.0,384.0,470.0,6.0,5.04,3191.0,16062.98,51256969.18,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.0 days, before supplier lead time of 6.0 days."
+106,X-ray Machine,V003,HealthTools Ltd.,1444.0,817.0,248.0,25.0,5.82,3436.0,14726.39,50599876.04,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 25.0 days."
+106,X-ray Machine,V003,HealthTools Ltd.,1444.0,817.0,248.0,25.0,5.82,3436.0,14726.39,50599876.04,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 25.0 days."
+107,IV Drip,V002,EquipMed Co.,1907.0,892.0,197.0,20.0,9.68,3838.0,12513.84,48028117.92,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 20.0 days."
+107,IV Drip,V002,EquipMed Co.,1907.0,892.0,197.0,20.0,9.68,3838.0,12513.84,48028117.92,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 20.0 days."
+103,X-ray Machine,V003,HealthTools Ltd.,1126.0,894.0,111.0,13.0,10.14,2930.0,14820.61,43424387.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 13.0 days."
+103,X-ray Machine,V003,HealthTools Ltd.,1126.0,894.0,111.0,13.0,10.14,2930.0,14820.61,43424387.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 13.0 days."
+103,X-ray Machine,V001,MedSupplies Inc.,437.0,311.0,399.0,11.0,1.1,4239.0,10175.7,43134792.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.1 days, before supplier lead time of 11.0 days."
+103,X-ray Machine,V001,MedSupplies Inc.,437.0,311.0,399.0,11.0,1.1,4239.0,10175.7,43134792.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.1 days, before supplier lead time of 11.0 days."
+105,X-ray Machine,V002,EquipMed Co.,1341.0,986.0,312.0,28.0,4.3,3253.0,13013.72,42333631.16,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.3 days, before supplier lead time of 28.0 days."
+105,X-ray Machine,V002,EquipMed Co.,1341.0,986.0,312.0,28.0,4.3,3253.0,13013.72,42333631.16,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.3 days, before supplier lead time of 28.0 days."
+106,Surgical Mask,V003,HealthTools Ltd.,2442.0,213.0,249.0,29.0,9.81,3266.0,12277.15,40097171.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.8 days, before supplier lead time of 29.0 days."
+106,Surgical Mask,V003,HealthTools Ltd.,2442.0,213.0,249.0,29.0,9.81,3266.0,12277.15,40097171.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.8 days, before supplier lead time of 29.0 days."
+108,X-ray Machine,V002,EquipMed Co.,1872.0,405.0,210.0,29.0,8.91,3178.0,12507.75,39749629.5,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.9 days, before supplier lead time of 29.0 days."
+108,X-ray Machine,V002,EquipMed Co.,1872.0,405.0,210.0,29.0,8.91,3178.0,12507.75,39749629.5,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.9 days, before supplier lead time of 29.0 days."
+109,X-ray Machine,V002,EquipMed Co.,1291.0,46.0,209.0,20.0,6.18,2119.0,18593.6,39399838.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.2 days, before supplier lead time of 20.0 days."
+109,X-ray Machine,V002,EquipMed Co.,1291.0,46.0,209.0,20.0,6.18,2119.0,18593.6,39399838.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.2 days, before supplier lead time of 20.0 days."
+103,IV Drip,V002,EquipMed Co.,4059.0,465.0,213.0,21.0,19.06,1925.0,19180.01,36921519.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 19.1 days, before supplier lead time of 21.0 days."
+103,IV Drip,V002,EquipMed Co.,4059.0,465.0,213.0,21.0,19.06,1925.0,19180.01,36921519.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 19.1 days, before supplier lead time of 21.0 days."
+103,IV Drip,V001,MedSupplies Inc.,3596.0,943.0,271.0,17.0,13.27,1855.0,19621.33,36397567.15,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.3 days, before supplier lead time of 17.0 days."
+103,IV Drip,V001,MedSupplies Inc.,3596.0,943.0,271.0,17.0,13.27,1855.0,19621.33,36397567.15,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.3 days, before supplier lead time of 17.0 days."
+102,Ventilator,V002,EquipMed Co.,1307.0,703.0,89.0,26.0,14.69,4201.0,8594.8,36106754.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.7 days, before supplier lead time of 26.0 days."
+102,Ventilator,V002,EquipMed Co.,1307.0,703.0,89.0,26.0,14.69,4201.0,8594.8,36106754.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.7 days, before supplier lead time of 26.0 days."
+107,X-ray Machine,V002,EquipMed Co.,1277.0,136.0,473.0,15.0,2.7,4349.0,8242.85,35848154.65,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.7 days, before supplier lead time of 15.0 days."
+107,X-ray Machine,V002,EquipMed Co.,1277.0,136.0,473.0,15.0,2.7,4349.0,8242.85,35848154.65,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.7 days, before supplier lead time of 15.0 days."
+109,IV Drip,V001,MedSupplies Inc.,1735.0,214.0,263.0,26.0,6.6,1991.0,17936.26,35711093.66,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 26.0 days."
+109,IV Drip,V001,MedSupplies Inc.,1735.0,214.0,263.0,26.0,6.6,1991.0,17936.26,35711093.66,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 26.0 days."
+104,X-ray Machine,V002,EquipMed Co.,234.0,42.0,401.0,5.0,0.58,4085.0,8718.91,35616747.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.6 days, before supplier lead time of 5.0 days."
+104,X-ray Machine,V002,EquipMed Co.,234.0,42.0,401.0,5.0,0.58,4085.0,8718.91,35616747.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.6 days, before supplier lead time of 5.0 days."
+109,Ventilator,V003,HealthTools Ltd.,1400.0,795.0,483.0,3.0,2.9,3271.0,10794.3,35308155.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.9 days, before supplier lead time of 3.0 days."
+109,Ventilator,V003,HealthTools Ltd.,1400.0,795.0,483.0,3.0,2.9,3271.0,10794.3,35308155.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.9 days, before supplier lead time of 3.0 days."
+104,Gloves,V003,HealthTools Ltd.,712.0,710.0,481.0,18.0,1.48,2042.0,16417.4,33524330.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.5 days, before supplier lead time of 18.0 days."
+104,Gloves,V003,HealthTools Ltd.,712.0,710.0,481.0,18.0,1.48,2042.0,16417.4,33524330.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.5 days, before supplier lead time of 18.0 days."
+108,IV Drip,V003,HealthTools Ltd.,3389.0,421.0,498.0,29.0,6.81,2191.0,15278.79,33475828.89,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 29.0 days."
+108,IV Drip,V003,HealthTools Ltd.,3389.0,421.0,498.0,29.0,6.81,2191.0,15278.79,33475828.89,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 29.0 days."
+109,Gloves,V002,EquipMed Co.,1020.0,17.0,192.0,6.0,5.31,3333.0,9980.36,33264539.88,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.3 days, before supplier lead time of 6.0 days."
+109,Gloves,V002,EquipMed Co.,1020.0,17.0,192.0,6.0,5.31,3333.0,9980.36,33264539.88,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.3 days, before supplier lead time of 6.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,840.0,230.0,308.0,13.0,2.73,4143.0,8003.19,33157216.17,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.7 days, before supplier lead time of 13.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,840.0,230.0,308.0,13.0,2.73,4143.0,8003.19,33157216.17,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.7 days, before supplier lead time of 13.0 days."
+108,X-ray Machine,V001,MedSupplies Inc.,1157.0,663.0,398.0,27.0,2.91,3401.0,9433.1,32081973.1,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.9 days, before supplier lead time of 27.0 days."
+108,X-ray Machine,V001,MedSupplies Inc.,1157.0,663.0,398.0,27.0,2.91,3401.0,9433.1,32081973.1,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.9 days, before supplier lead time of 27.0 days."
+103,Gloves,V002,EquipMed Co.,343.0,133.0,260.0,25.0,1.32,4139.0,7507.87,31075073.93,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 25.0 days."
+103,Gloves,V002,EquipMed Co.,343.0,133.0,260.0,25.0,1.32,4139.0,7507.87,31075073.93,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 25.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,1780.0,484.0,461.0,11.0,3.86,1627.0,19068.13,31023847.51,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.9 days, before supplier lead time of 11.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,1780.0,484.0,461.0,11.0,3.86,1627.0,19068.13,31023847.51,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.9 days, before supplier lead time of 11.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,2132.0,703.0,369.0,12.0,5.78,3771.0,8129.55,30656533.05,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 12.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,2132.0,703.0,369.0,12.0,5.78,3771.0,8129.55,30656533.05,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 12.0 days."
+109,Gloves,V003,HealthTools Ltd.,3456.0,165.0,360.0,26.0,9.6,2144.0,14225.64,30499772.16,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.6 days, before supplier lead time of 26.0 days."
+109,Gloves,V003,HealthTools Ltd.,3456.0,165.0,360.0,26.0,9.6,2144.0,14225.64,30499772.16,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.6 days, before supplier lead time of 26.0 days."
+109,Ventilator,V001,MedSupplies Inc.,3491.0,948.0,477.0,17.0,7.32,2075.0,14555.91,30203513.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 17.0 days."
+109,Ventilator,V001,MedSupplies Inc.,3491.0,948.0,477.0,17.0,7.32,2075.0,14555.91,30203513.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 17.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,2159.0,292.0,299.0,21.0,7.22,1915.0,15670.89,30009754.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.2 days, before supplier lead time of 21.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,2159.0,292.0,299.0,21.0,7.22,1915.0,15670.89,30009754.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.2 days, before supplier lead time of 21.0 days."
+107,Gloves,V002,EquipMed Co.,466.0,372.0,106.0,26.0,4.4,2960.0,10124.28,29967868.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.4 days, before supplier lead time of 26.0 days."
+107,Gloves,V002,EquipMed Co.,466.0,372.0,106.0,26.0,4.4,2960.0,10124.28,29967868.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.4 days, before supplier lead time of 26.0 days."
+101,Surgical Mask,V001,MedSupplies Inc.,901.0,287.0,447.0,14.0,2.02,1641.0,17621.95,28917619.95,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.0 days, before supplier lead time of 14.0 days."
+101,Surgical Mask,V001,MedSupplies Inc.,901.0,287.0,447.0,14.0,2.02,1641.0,17621.95,28917619.95,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.0 days, before supplier lead time of 14.0 days."
+105,Gloves,V002,EquipMed Co.,998.0,224.0,161.0,20.0,6.2,2019.0,14321.3,28914704.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.2 days, before supplier lead time of 20.0 days."
+105,Gloves,V002,EquipMed Co.,998.0,224.0,161.0,20.0,6.2,2019.0,14321.3,28914704.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.2 days, before supplier lead time of 20.0 days."
+101,IV Drip,V003,HealthTools Ltd.,1935.0,164.0,483.0,26.0,4.01,1879.0,15196.56,28554336.24,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.0 days, before supplier lead time of 26.0 days."
+101,IV Drip,V003,HealthTools Ltd.,1935.0,164.0,483.0,26.0,4.01,1879.0,15196.56,28554336.24,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.0 days, before supplier lead time of 26.0 days."
+109,Gloves,V002,EquipMed Co.,1261.0,847.0,471.0,11.0,2.68,3607.0,7890.13,28459698.91,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.7 days, before supplier lead time of 11.0 days."
+109,Gloves,V002,EquipMed Co.,1261.0,847.0,471.0,11.0,2.68,3607.0,7890.13,28459698.91,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.7 days, before supplier lead time of 11.0 days."
+108,Ventilator,V001,MedSupplies Inc.,1466.0,199.0,496.0,18.0,2.96,1931.0,14687.35,28361272.85,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.0 days, before supplier lead time of 18.0 days."
+108,Ventilator,V001,MedSupplies Inc.,1466.0,199.0,496.0,18.0,2.96,1931.0,14687.35,28361272.85,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.0 days, before supplier lead time of 18.0 days."
+102,X-ray Machine,V002,EquipMed Co.,2249.0,211.0,342.0,26.0,6.58,2150.0,13171.06,28317779.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 26.0 days."
+102,X-ray Machine,V002,EquipMed Co.,2249.0,211.0,342.0,26.0,6.58,2150.0,13171.06,28317779.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 26.0 days."
+105,Surgical Mask,V001,MedSupplies Inc.,1336.0,635.0,470.0,8.0,2.84,4134.0,6648.92,27486635.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.8 days, before supplier lead time of 8.0 days."
+105,Surgical Mask,V001,MedSupplies Inc.,1336.0,635.0,470.0,8.0,2.84,4134.0,6648.92,27486635.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.8 days, before supplier lead time of 8.0 days."
+103,Ventilator,V003,HealthTools Ltd.,1104.0,412.0,301.0,9.0,3.67,2204.0,12341.39,27200423.56,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.7 days, before supplier lead time of 9.0 days."
+103,Ventilator,V003,HealthTools Ltd.,1104.0,412.0,301.0,9.0,3.67,2204.0,12341.39,27200423.56,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.7 days, before supplier lead time of 9.0 days."
+108,Surgical Mask,V002,EquipMed Co.,4057.0,142.0,342.0,16.0,11.86,1794.0,14331.23,25710226.62,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.9 days, before supplier lead time of 16.0 days."
+108,Surgical Mask,V002,EquipMed Co.,4057.0,142.0,342.0,16.0,11.86,1794.0,14331.23,25710226.62,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.9 days, before supplier lead time of 16.0 days."
+102,X-ray Machine,V002,EquipMed Co.,1366.0,65.0,241.0,9.0,5.67,3338.0,7664.23,25583199.74,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.7 days, before supplier lead time of 9.0 days."
+102,X-ray Machine,V002,EquipMed Co.,1366.0,65.0,241.0,9.0,5.67,3338.0,7664.23,25583199.74,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.7 days, before supplier lead time of 9.0 days."
+106,Surgical Mask,V002,EquipMed Co.,3465.0,622.0,415.0,25.0,8.35,1471.0,17374.64,25558095.44,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.3 days, before supplier lead time of 25.0 days."
+106,Surgical Mask,V002,EquipMed Co.,3465.0,622.0,415.0,25.0,8.35,1471.0,17374.64,25558095.44,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.3 days, before supplier lead time of 25.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,3832.0,700.0,420.0,28.0,9.12,1995.0,12764.56,25465297.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.1 days, before supplier lead time of 28.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,3832.0,700.0,420.0,28.0,9.12,1995.0,12764.56,25465297.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.1 days, before supplier lead time of 28.0 days."
+108,Gloves,V002,EquipMed Co.,789.0,515.0,230.0,24.0,3.43,3449.0,7379.83,25453033.67,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.4 days, before supplier lead time of 24.0 days."
+108,Gloves,V002,EquipMed Co.,789.0,515.0,230.0,24.0,3.43,3449.0,7379.83,25453033.67,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.4 days, before supplier lead time of 24.0 days."
+104,Gloves,V003,HealthTools Ltd.,1711.0,468.0,242.0,21.0,7.07,4039.0,6213.3,25095518.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 21.0 days."
+104,Gloves,V003,HealthTools Ltd.,1711.0,468.0,242.0,21.0,7.07,4039.0,6213.3,25095518.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 21.0 days."
+108,Ventilator,V001,MedSupplies Inc.,320.0,285.0,243.0,20.0,1.32,2297.0,10919.13,25081241.61,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 20.0 days."
+108,Ventilator,V001,MedSupplies Inc.,320.0,285.0,243.0,20.0,1.32,2297.0,10919.13,25081241.61,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 20.0 days."
+108,Ventilator,V002,EquipMed Co.,2969.0,840.0,439.0,8.0,6.76,1464.0,17019.13,24916006.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 8.0 days."
+108,Ventilator,V002,EquipMed Co.,2969.0,840.0,439.0,8.0,6.76,1464.0,17019.13,24916006.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 8.0 days."
+109,Gloves,V002,EquipMed Co.,1228.0,217.0,172.0,10.0,7.14,1714.0,14250.61,24425545.54,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 10.0 days."
+109,Gloves,V002,EquipMed Co.,1228.0,217.0,172.0,10.0,7.14,1714.0,14250.61,24425545.54,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 10.0 days."
+103,X-ray Machine,V002,EquipMed Co.,139.0,58.0,420.0,19.0,0.33,5735.0,4233.14,24277057.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.3 days, before supplier lead time of 19.0 days."
+103,X-ray Machine,V002,EquipMed Co.,139.0,58.0,420.0,19.0,0.33,5735.0,4233.14,24277057.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.3 days, before supplier lead time of 19.0 days."
+107,Gloves,V001,MedSupplies Inc.,255.0,89.0,276.0,13.0,0.92,1833.0,12963.49,23762077.17,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.9 days, before supplier lead time of 13.0 days."
+107,Gloves,V001,MedSupplies Inc.,255.0,89.0,276.0,13.0,0.92,1833.0,12963.49,23762077.17,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.9 days, before supplier lead time of 13.0 days."
+106,Ventilator,V003,HealthTools Ltd.,2031.0,635.0,141.0,24.0,14.4,1283.0,18083.89,23201630.87,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.4 days, before supplier lead time of 24.0 days."
+106,Ventilator,V003,HealthTools Ltd.,2031.0,635.0,141.0,24.0,14.4,1283.0,18083.89,23201630.87,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.4 days, before supplier lead time of 24.0 days."
+107,Ventilator,V002,EquipMed Co.,805.0,681.0,87.0,16.0,9.25,2300.0,9989.26,22975298.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.3 days, before supplier lead time of 16.0 days."
+107,Ventilator,V002,EquipMed Co.,805.0,681.0,87.0,16.0,9.25,2300.0,9989.26,22975298.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.3 days, before supplier lead time of 16.0 days."
+109,IV Drip,V002,EquipMed Co.,3018.0,68.0,460.0,23.0,6.56,2361.0,9672.78,22837433.58,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 23.0 days."
+109,IV Drip,V002,EquipMed Co.,3018.0,68.0,460.0,23.0,6.56,2361.0,9672.78,22837433.58,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 23.0 days."
+100,Gloves,V003,HealthTools Ltd.,1877.0,210.0,331.0,26.0,5.67,1135.0,19549.43,22188603.05,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.7 days, before supplier lead time of 26.0 days."
+100,Gloves,V003,HealthTools Ltd.,1877.0,210.0,331.0,26.0,5.67,1135.0,19549.43,22188603.05,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.7 days, before supplier lead time of 26.0 days."
+108,Surgical Mask,V001,MedSupplies Inc.,1078.0,326.0,337.0,24.0,3.2,1573.0,13908.3,21877755.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.2 days, before supplier lead time of 24.0 days."
+108,Surgical Mask,V001,MedSupplies Inc.,1078.0,326.0,337.0,24.0,3.2,1573.0,13908.3,21877755.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.2 days, before supplier lead time of 24.0 days."
+106,Ventilator,V003,HealthTools Ltd.,2271.0,104.0,186.0,20.0,12.21,1157.0,18908.2,21876787.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.2 days, before supplier lead time of 20.0 days."
+106,Ventilator,V003,HealthTools Ltd.,2271.0,104.0,186.0,20.0,12.21,1157.0,18908.2,21876787.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.2 days, before supplier lead time of 20.0 days."
+100,IV Drip,V003,HealthTools Ltd.,3240.0,701.0,364.0,22.0,8.9,1450.0,15058.49,21834810.5,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.9 days, before supplier lead time of 22.0 days."
+100,IV Drip,V003,HealthTools Ltd.,3240.0,701.0,364.0,22.0,8.9,1450.0,15058.49,21834810.5,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.9 days, before supplier lead time of 22.0 days."
+108,Ventilator,V001,MedSupplies Inc.,462.0,165.0,499.0,23.0,0.93,1988.0,10654.65,21181444.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.9 days, before supplier lead time of 23.0 days."
+108,Ventilator,V001,MedSupplies Inc.,462.0,165.0,499.0,23.0,0.93,1988.0,10654.65,21181444.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.9 days, before supplier lead time of 23.0 days."
+102,X-ray Machine,V003,HealthTools Ltd.,1310.0,291.0,179.0,22.0,7.32,1463.0,14443.49,21130825.87,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 22.0 days."
+102,X-ray Machine,V003,HealthTools Ltd.,1310.0,291.0,179.0,22.0,7.32,1463.0,14443.49,21130825.87,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 22.0 days."
+107,Ventilator,V003,HealthTools Ltd.,1536.0,708.0,219.0,21.0,7.01,1413.0,14457.92,20429040.96,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 21.0 days."
+107,Ventilator,V003,HealthTools Ltd.,1536.0,708.0,219.0,21.0,7.01,1413.0,14457.92,20429040.96,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 21.0 days."
+108,IV Drip,V001,MedSupplies Inc.,1299.0,42.0,249.0,8.0,5.22,2223.0,8807.99,19580161.77,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.2 days, before supplier lead time of 8.0 days."
+108,IV Drip,V001,MedSupplies Inc.,1299.0,42.0,249.0,8.0,5.22,2223.0,8807.99,19580161.77,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.2 days, before supplier lead time of 8.0 days."
+104,Surgical Mask,V003,HealthTools Ltd.,2931.0,764.0,374.0,25.0,7.84,2892.0,6609.51,19114702.92,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.8 days, before supplier lead time of 25.0 days."
+104,Surgical Mask,V003,HealthTools Ltd.,2931.0,764.0,374.0,25.0,7.84,2892.0,6609.51,19114702.92,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.8 days, before supplier lead time of 25.0 days."
+109,Surgical Mask,V001,MedSupplies Inc.,1078.0,784.0,499.0,18.0,2.16,2666.0,6971.8,18586818.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 18.0 days."
+109,Surgical Mask,V001,MedSupplies Inc.,1078.0,784.0,499.0,18.0,2.16,2666.0,6971.8,18586818.8,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 18.0 days."
+102,IV Drip,V001,MedSupplies Inc.,2149.0,235.0,127.0,17.0,16.92,3360.0,5517.11,18537489.6,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.9 days, before supplier lead time of 17.0 days."
+102,IV Drip,V001,MedSupplies Inc.,2149.0,235.0,127.0,17.0,16.92,3360.0,5517.11,18537489.6,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.9 days, before supplier lead time of 17.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,1823.0,953.0,71.0,27.0,25.68,2450.0,7407.8,18149110.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 25.7 days, before supplier lead time of 27.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,1823.0,953.0,71.0,27.0,25.68,2450.0,7407.8,18149110.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 25.7 days, before supplier lead time of 27.0 days."
+100,IV Drip,V002,EquipMed Co.,2729.0,250.0,282.0,25.0,9.68,1099.0,16291.95,17904853.05,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 25.0 days."
+100,IV Drip,V002,EquipMed Co.,2729.0,250.0,282.0,25.0,9.68,1099.0,16291.95,17904853.05,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 25.0 days."
+106,IV Drip,V002,EquipMed Co.,177.0,101.0,224.0,29.0,0.79,5275.0,3385.0,17855875.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.8 days, before supplier lead time of 29.0 days."
+106,IV Drip,V002,EquipMed Co.,177.0,101.0,224.0,29.0,0.79,5275.0,3385.0,17855875.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.8 days, before supplier lead time of 29.0 days."
+104,X-ray Machine,V001,MedSupplies Inc.,1729.0,197.0,418.0,26.0,4.14,3717.0,4771.7,17736408.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 26.0 days."
+104,X-ray Machine,V001,MedSupplies Inc.,1729.0,197.0,418.0,26.0,4.14,3717.0,4771.7,17736408.9,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 26.0 days."
+104,Surgical Mask,V003,HealthTools Ltd.,481.0,246.0,253.0,5.0,1.9,2193.0,8021.97,17592180.21,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 5.0 days."
+104,Surgical Mask,V003,HealthTools Ltd.,481.0,246.0,253.0,5.0,1.9,2193.0,8021.97,17592180.21,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 5.0 days."
+108,IV Drip,V002,EquipMed Co.,2376.0,26.0,229.0,27.0,10.38,1495.0,11614.0,17362930.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.4 days, before supplier lead time of 27.0 days."
+108,IV Drip,V002,EquipMed Co.,2376.0,26.0,229.0,27.0,10.38,1495.0,11614.0,17362930.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.4 days, before supplier lead time of 27.0 days."
+107,Surgical Mask,V003,HealthTools Ltd.,1351.0,90.0,207.0,15.0,6.53,1620.0,10604.88,17179905.6,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.5 days, before supplier lead time of 15.0 days."
+107,Surgical Mask,V003,HealthTools Ltd.,1351.0,90.0,207.0,15.0,6.53,1620.0,10604.88,17179905.6,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.5 days, before supplier lead time of 15.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,1923.0,328.0,359.0,11.0,5.36,3978.0,3828.92,15231443.76,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.4 days, before supplier lead time of 11.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,1923.0,328.0,359.0,11.0,5.36,3978.0,3828.92,15231443.76,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.4 days, before supplier lead time of 11.0 days."
+103,Surgical Mask,V002,EquipMed Co.,4174.0,132.0,379.0,14.0,11.01,871.0,17374.23,15132954.33,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.0 days, before supplier lead time of 14.0 days."
+103,Surgical Mask,V002,EquipMed Co.,4174.0,132.0,379.0,14.0,11.01,871.0,17374.23,15132954.33,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.0 days, before supplier lead time of 14.0 days."
+105,X-ray Machine,V002,EquipMed Co.,93.0,61.0,348.0,2.0,0.27,5121.0,2892.86,14814336.06,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.3 days, before supplier lead time of 2.0 days."
+105,X-ray Machine,V002,EquipMed Co.,93.0,61.0,348.0,2.0,0.27,5121.0,2892.86,14814336.06,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.3 days, before supplier lead time of 2.0 days."
+109,Gloves,V001,MedSupplies Inc.,1373.0,532.0,295.0,23.0,4.65,993.0,14906.21,14801866.53,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.7 days, before supplier lead time of 23.0 days."
+109,Gloves,V001,MedSupplies Inc.,1373.0,532.0,295.0,23.0,4.65,993.0,14906.21,14801866.53,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.7 days, before supplier lead time of 23.0 days."
+102,Ventilator,V002,EquipMed Co.,3235.0,977.0,391.0,26.0,8.27,2371.0,6218.86,14744917.06,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.3 days, before supplier lead time of 26.0 days."
+102,Ventilator,V002,EquipMed Co.,3235.0,977.0,391.0,26.0,8.27,2371.0,6218.86,14744917.06,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.3 days, before supplier lead time of 26.0 days."
+106,Gloves,V003,HealthTools Ltd.,880.0,389.0,433.0,25.0,2.03,3151.0,4595.06,14479034.06,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.0 days, before supplier lead time of 25.0 days."
+106,Gloves,V003,HealthTools Ltd.,880.0,389.0,433.0,25.0,2.03,3151.0,4595.06,14479034.06,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.0 days, before supplier lead time of 25.0 days."
+105,Surgical Mask,V003,HealthTools Ltd.,3054.0,76.0,222.0,14.0,13.76,2017.0,7061.15,14242339.55,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.8 days, before supplier lead time of 14.0 days."
+105,Surgical Mask,V003,HealthTools Ltd.,3054.0,76.0,222.0,14.0,13.76,2017.0,7061.15,14242339.55,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.8 days, before supplier lead time of 14.0 days."
+103,IV Drip,V003,HealthTools Ltd.,1497.0,911.0,285.0,22.0,5.25,742.0,18407.82,13658602.44,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.3 days, before supplier lead time of 22.0 days."
+103,IV Drip,V003,HealthTools Ltd.,1497.0,911.0,285.0,22.0,5.25,742.0,18407.82,13658602.44,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.3 days, before supplier lead time of 22.0 days."
+101,Gloves,V001,MedSupplies Inc.,1248.0,567.0,381.0,25.0,3.28,1541.0,8638.15,13311389.15,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.3 days, before supplier lead time of 25.0 days."
+101,Gloves,V001,MedSupplies Inc.,1248.0,567.0,381.0,25.0,3.28,1541.0,8638.15,13311389.15,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.3 days, before supplier lead time of 25.0 days."
+109,Ventilator,V002,EquipMed Co.,2398.0,248.0,416.0,7.0,5.76,2007.0,6420.49,12885923.43,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 7.0 days."
+109,Ventilator,V002,EquipMed Co.,2398.0,248.0,416.0,7.0,5.76,2007.0,6420.49,12885923.43,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 7.0 days."
+104,IV Drip,V002,EquipMed Co.,1726.0,672.0,422.0,25.0,4.09,1682.0,7544.2,12689344.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 25.0 days."
+104,IV Drip,V002,EquipMed Co.,1726.0,672.0,422.0,25.0,4.09,1682.0,7544.2,12689344.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 25.0 days."
+109,X-ray Machine,V003,HealthTools Ltd.,562.0,354.0,355.0,10.0,1.58,5287.0,2399.0,12683513.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.6 days, before supplier lead time of 10.0 days."
+109,X-ray Machine,V003,HealthTools Ltd.,562.0,354.0,355.0,10.0,1.58,5287.0,2399.0,12683513.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.6 days, before supplier lead time of 10.0 days."
+103,Gloves,V003,HealthTools Ltd.,1930.0,760.0,309.0,19.0,6.25,2200.0,5585.01,12287022.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.2 days, before supplier lead time of 19.0 days."
+103,Gloves,V003,HealthTools Ltd.,1930.0,760.0,309.0,19.0,6.25,2200.0,5585.01,12287022.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.2 days, before supplier lead time of 19.0 days."
+102,IV Drip,V003,HealthTools Ltd.,1829.0,430.0,318.0,10.0,5.75,1020.0,11922.86,12161317.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 10.0 days."
+102,IV Drip,V003,HealthTools Ltd.,1829.0,430.0,318.0,10.0,5.75,1020.0,11922.86,12161317.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 10.0 days."
+109,IV Drip,V003,HealthTools Ltd.,1389.0,561.0,245.0,20.0,5.67,1848.0,6575.23,12151025.04,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.7 days, before supplier lead time of 20.0 days."
+109,IV Drip,V003,HealthTools Ltd.,1389.0,561.0,245.0,20.0,5.67,1848.0,6575.23,12151025.04,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.7 days, before supplier lead time of 20.0 days."
+108,Surgical Mask,V001,MedSupplies Inc.,152.0,30.0,37.0,14.0,4.11,2665.0,4425.19,11793131.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 14.0 days."
+108,Surgical Mask,V001,MedSupplies Inc.,152.0,30.0,37.0,14.0,4.11,2665.0,4425.19,11793131.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 14.0 days."
+103,Gloves,V002,EquipMed Co.,3851.0,41.0,382.0,16.0,10.08,1688.0,6905.72,11656855.36,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 16.0 days."
+103,Gloves,V002,EquipMed Co.,3851.0,41.0,382.0,16.0,10.08,1688.0,6905.72,11656855.36,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 16.0 days."
+107,Gloves,V003,HealthTools Ltd.,3363.0,260.0,332.0,25.0,10.13,1000.0,11309.13,11309130.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 25.0 days."
+107,Gloves,V003,HealthTools Ltd.,3363.0,260.0,332.0,25.0,10.13,1000.0,11309.13,11309130.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 25.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,2071.0,976.0,346.0,10.0,5.99,1024.0,10969.69,11232962.56,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.0 days, before supplier lead time of 10.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,2071.0,976.0,346.0,10.0,5.99,1024.0,10969.69,11232962.56,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.0 days, before supplier lead time of 10.0 days."
+102,Gloves,V002,EquipMed Co.,1808.0,837.0,281.0,21.0,6.43,1929.0,5201.3,10033307.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.4 days, before supplier lead time of 21.0 days."
+102,Gloves,V002,EquipMed Co.,1808.0,837.0,281.0,21.0,6.43,1929.0,5201.3,10033307.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.4 days, before supplier lead time of 21.0 days."
+103,Gloves,V003,HealthTools Ltd.,3926.0,69.0,377.0,14.0,10.41,1040.0,9426.31,9803362.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.4 days, before supplier lead time of 14.0 days."
+103,Gloves,V003,HealthTools Ltd.,3926.0,69.0,377.0,14.0,10.41,1040.0,9426.31,9803362.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.4 days, before supplier lead time of 14.0 days."
+109,Gloves,V001,MedSupplies Inc.,3243.0,77.0,474.0,11.0,6.84,1075.0,8997.87,9672710.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 11.0 days."
+109,Gloves,V001,MedSupplies Inc.,3243.0,77.0,474.0,11.0,6.84,1075.0,8997.87,9672710.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 11.0 days."
+104,Gloves,V002,EquipMed Co.,1147.0,636.0,183.0,9.0,6.27,4287.0,2216.52,9502221.24,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.3 days, before supplier lead time of 9.0 days."
+104,Gloves,V002,EquipMed Co.,1147.0,636.0,183.0,9.0,6.27,4287.0,2216.52,9502221.24,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.3 days, before supplier lead time of 9.0 days."
+101,Ventilator,V002,EquipMed Co.,1372.0,49.0,172.0,23.0,7.98,2013.0,4716.65,9494616.45,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 23.0 days."
+101,Ventilator,V002,EquipMed Co.,1372.0,49.0,172.0,23.0,7.98,2013.0,4716.65,9494616.45,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 23.0 days."
+103,IV Drip,V001,MedSupplies Inc.,3973.0,196.0,491.0,21.0,8.09,1566.0,5876.33,9202332.78,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.1 days, before supplier lead time of 21.0 days."
+103,IV Drip,V001,MedSupplies Inc.,3973.0,196.0,491.0,21.0,8.09,1566.0,5876.33,9202332.78,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.1 days, before supplier lead time of 21.0 days."
+109,Ventilator,V002,EquipMed Co.,3037.0,515.0,464.0,7.0,6.55,2340.0,3774.51,8832353.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.5 days, before supplier lead time of 7.0 days."
+109,Ventilator,V002,EquipMed Co.,3037.0,515.0,464.0,7.0,6.55,2340.0,3774.51,8832353.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.5 days, before supplier lead time of 7.0 days."
+104,Surgical Mask,V003,HealthTools Ltd.,519.0,293.0,409.0,8.0,1.27,772.0,11329.09,8746057.48,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 8.0 days."
+104,Surgical Mask,V003,HealthTools Ltd.,519.0,293.0,409.0,8.0,1.27,772.0,11329.09,8746057.48,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.3 days, before supplier lead time of 8.0 days."
+106,IV Drip,V003,HealthTools Ltd.,822.0,186.0,382.0,6.0,2.15,1563.0,5284.45,8259595.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 6.0 days."
+106,IV Drip,V003,HealthTools Ltd.,822.0,186.0,382.0,6.0,2.15,1563.0,5284.45,8259595.35,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.2 days, before supplier lead time of 6.0 days."
+102,Gloves,V001,MedSupplies Inc.,3675.0,261.0,287.0,20.0,12.8,1465.0,5622.76,8237343.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.8 days, before supplier lead time of 20.0 days."
+102,Gloves,V001,MedSupplies Inc.,3675.0,261.0,287.0,20.0,12.8,1465.0,5622.76,8237343.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.8 days, before supplier lead time of 20.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,317.0,154.0,168.0,17.0,1.89,1207.0,6693.04,8078499.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 17.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,317.0,154.0,168.0,17.0,1.89,1207.0,6693.04,8078499.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 17.0 days."
+105,Gloves,V002,EquipMed Co.,389.0,284.0,435.0,11.0,0.89,1659.0,4618.7,7662423.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.9 days, before supplier lead time of 11.0 days."
+105,Gloves,V002,EquipMed Co.,389.0,284.0,435.0,11.0,0.89,1659.0,4618.7,7662423.3,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 0.9 days, before supplier lead time of 11.0 days."
+100,X-ray Machine,V002,EquipMed Co.,4518.0,675.0,430.0,13.0,10.51,398.0,19140.66,7617982.68,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.5 days, before supplier lead time of 13.0 days."
+100,X-ray Machine,V002,EquipMed Co.,4518.0,675.0,430.0,13.0,10.51,398.0,19140.66,7617982.68,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.5 days, before supplier lead time of 13.0 days."
+108,Surgical Mask,V002,EquipMed Co.,1596.0,161.0,392.0,15.0,4.07,531.0,13977.02,7421797.62,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 15.0 days."
+108,Surgical Mask,V002,EquipMed Co.,1596.0,161.0,392.0,15.0,4.07,531.0,13977.02,7421797.62,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 15.0 days."
+100,X-ray Machine,V002,EquipMed Co.,997.0,239.0,108.0,16.0,9.23,1189.0,5863.88,6972153.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.2 days, before supplier lead time of 16.0 days."
+100,X-ray Machine,V002,EquipMed Co.,997.0,239.0,108.0,16.0,9.23,1189.0,5863.88,6972153.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.2 days, before supplier lead time of 16.0 days."
+103,IV Drip,V003,HealthTools Ltd.,1775.0,832.0,476.0,16.0,3.73,2564.0,2503.52,6419025.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.7 days, before supplier lead time of 16.0 days."
+103,IV Drip,V003,HealthTools Ltd.,1775.0,832.0,476.0,16.0,3.73,2564.0,2503.52,6419025.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.7 days, before supplier lead time of 16.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,872.0,176.0,158.0,29.0,5.52,2977.0,2156.02,6418471.54,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.5 days, before supplier lead time of 29.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,872.0,176.0,158.0,29.0,5.52,2977.0,2156.02,6418471.54,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.5 days, before supplier lead time of 29.0 days."
+100,Ventilator,V002,EquipMed Co.,835.0,634.0,426.0,7.0,1.96,1688.0,3695.18,6237463.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.0 days, before supplier lead time of 7.0 days."
+100,Ventilator,V002,EquipMed Co.,835.0,634.0,426.0,7.0,1.96,1688.0,3695.18,6237463.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.0 days, before supplier lead time of 7.0 days."
+102,X-ray Machine,V003,HealthTools Ltd.,1243.0,425.0,400.0,28.0,3.11,612.0,9954.16,6091945.92,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.1 days, before supplier lead time of 28.0 days."
+102,X-ray Machine,V003,HealthTools Ltd.,1243.0,425.0,400.0,28.0,3.11,612.0,9954.16,6091945.92,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.1 days, before supplier lead time of 28.0 days."
+100,IV Drip,V001,MedSupplies Inc.,3931.0,818.0,204.0,25.0,19.27,1983.0,2967.9,5885345.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 19.3 days, before supplier lead time of 25.0 days."
+100,IV Drip,V001,MedSupplies Inc.,3931.0,818.0,204.0,25.0,19.27,1983.0,2967.9,5885345.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 19.3 days, before supplier lead time of 25.0 days."
+103,IV Drip,V003,HealthTools Ltd.,387.0,210.0,207.0,24.0,1.87,3378.0,1631.28,5510463.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 24.0 days."
+103,IV Drip,V003,HealthTools Ltd.,387.0,210.0,207.0,24.0,1.87,3378.0,1631.28,5510463.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.9 days, before supplier lead time of 24.0 days."
+108,Ventilator,V003,HealthTools Ltd.,3261.0,645.0,449.0,23.0,7.26,1001.0,5417.61,5423027.61,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 23.0 days."
+108,Ventilator,V003,HealthTools Ltd.,3261.0,645.0,449.0,23.0,7.26,1001.0,5417.61,5423027.61,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 23.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,4379.0,886.0,176.0,28.0,24.88,268.0,18580.26,4979509.68,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 24.9 days, before supplier lead time of 28.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,4379.0,886.0,176.0,28.0,24.88,268.0,18580.26,4979509.68,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 24.9 days, before supplier lead time of 28.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,2833.0,767.0,327.0,11.0,8.66,2400.0,2061.51,4947624.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.7 days, before supplier lead time of 11.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,2833.0,767.0,327.0,11.0,8.66,2400.0,2061.51,4947624.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.7 days, before supplier lead time of 11.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,3919.0,699.0,388.0,23.0,10.1,951.0,5133.32,4881787.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 23.0 days."
+109,Surgical Mask,V003,HealthTools Ltd.,3919.0,699.0,388.0,23.0,10.1,951.0,5133.32,4881787.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.1 days, before supplier lead time of 23.0 days."
+104,IV Drip,V002,EquipMed Co.,2964.0,143.0,414.0,14.0,7.16,1731.0,2757.06,4772470.86,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.2 days, before supplier lead time of 14.0 days."
+104,IV Drip,V002,EquipMed Co.,2964.0,143.0,414.0,14.0,7.16,1731.0,2757.06,4772470.86,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.2 days, before supplier lead time of 14.0 days."
+107,Gloves,V001,MedSupplies Inc.,2208.0,441.0,253.0,25.0,8.73,239.0,19006.75,4542613.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.7 days, before supplier lead time of 25.0 days."
+107,Gloves,V001,MedSupplies Inc.,2208.0,441.0,253.0,25.0,8.73,239.0,19006.75,4542613.25,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.7 days, before supplier lead time of 25.0 days."
+104,IV Drip,V001,MedSupplies Inc.,1615.0,794.0,290.0,7.0,5.57,2730.0,1658.77,4528442.1,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 7.0 days."
+104,IV Drip,V001,MedSupplies Inc.,1615.0,794.0,290.0,7.0,5.57,2730.0,1658.77,4528442.1,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 7.0 days."
+108,IV Drip,V001,MedSupplies Inc.,873.0,141.0,250.0,12.0,3.49,404.0,11138.18,4499824.72,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.5 days, before supplier lead time of 12.0 days."
+108,IV Drip,V001,MedSupplies Inc.,873.0,141.0,250.0,12.0,3.49,404.0,11138.18,4499824.72,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.5 days, before supplier lead time of 12.0 days."
+108,Gloves,V001,MedSupplies Inc.,771.0,534.0,273.0,27.0,2.82,1926.0,2310.89,4450774.14,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.8 days, before supplier lead time of 27.0 days."
+108,Gloves,V001,MedSupplies Inc.,771.0,534.0,273.0,27.0,2.82,1926.0,2310.89,4450774.14,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.8 days, before supplier lead time of 27.0 days."
+105,IV Drip,V001,MedSupplies Inc.,2532.0,872.0,322.0,27.0,7.86,1709.0,2591.06,4428121.54,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.9 days, before supplier lead time of 27.0 days."
+105,IV Drip,V001,MedSupplies Inc.,2532.0,872.0,322.0,27.0,7.86,1709.0,2591.06,4428121.54,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.9 days, before supplier lead time of 27.0 days."
+100,IV Drip,V003,HealthTools Ltd.,1050.0,124.0,119.0,13.0,8.82,1178.0,3752.65,4420621.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.8 days, before supplier lead time of 13.0 days."
+100,IV Drip,V003,HealthTools Ltd.,1050.0,124.0,119.0,13.0,8.82,1178.0,3752.65,4420621.7,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.8 days, before supplier lead time of 13.0 days."
+107,Gloves,V002,EquipMed Co.,3692.0,929.0,244.0,17.0,15.13,435.0,10015.6,4356786.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.1 days, before supplier lead time of 17.0 days."
+107,Gloves,V002,EquipMed Co.,3692.0,929.0,244.0,17.0,15.13,435.0,10015.6,4356786.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.1 days, before supplier lead time of 17.0 days."
+105,Surgical Mask,V001,MedSupplies Inc.,714.0,69.0,118.0,26.0,6.05,4721.0,915.04,4319903.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.1 days, before supplier lead time of 26.0 days."
+105,Surgical Mask,V001,MedSupplies Inc.,714.0,69.0,118.0,26.0,6.05,4721.0,915.04,4319903.84,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.1 days, before supplier lead time of 26.0 days."
+108,IV Drip,V003,HealthTools Ltd.,1080.0,797.0,451.0,23.0,2.39,472.0,8862.24,4182977.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.4 days, before supplier lead time of 23.0 days."
+108,IV Drip,V003,HealthTools Ltd.,1080.0,797.0,451.0,23.0,2.39,472.0,8862.24,4182977.28,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.4 days, before supplier lead time of 23.0 days."
+107,IV Drip,V003,HealthTools Ltd.,1066.0,744.0,181.0,27.0,5.89,1511.0,2760.01,4170375.11,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.9 days, before supplier lead time of 27.0 days."
+107,IV Drip,V003,HealthTools Ltd.,1066.0,744.0,181.0,27.0,5.89,1511.0,2760.01,4170375.11,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.9 days, before supplier lead time of 27.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2787.0,548.0,112.0,25.0,24.88,1727.0,2409.08,4160481.16,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 24.9 days, before supplier lead time of 25.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2787.0,548.0,112.0,25.0,24.88,1727.0,2409.08,4160481.16,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 24.9 days, before supplier lead time of 25.0 days."
+102,Gloves,V002,EquipMed Co.,2087.0,834.0,441.0,7.0,4.73,318.0,12605.89,4008673.02,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.7 days, before supplier lead time of 7.0 days."
+102,Gloves,V002,EquipMed Co.,2087.0,834.0,441.0,7.0,4.73,318.0,12605.89,4008673.02,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.7 days, before supplier lead time of 7.0 days."
+106,IV Drip,V001,MedSupplies Inc.,2962.0,150.0,298.0,13.0,9.94,1987.0,2014.53,4002871.11,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.9 days, before supplier lead time of 13.0 days."
+106,IV Drip,V001,MedSupplies Inc.,2962.0,150.0,298.0,13.0,9.94,1987.0,2014.53,4002871.11,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.9 days, before supplier lead time of 13.0 days."
+100,IV Drip,V002,EquipMed Co.,4779.0,496.0,414.0,18.0,11.54,539.0,6545.59,3528073.01,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.5 days, before supplier lead time of 18.0 days."
+100,IV Drip,V002,EquipMed Co.,4779.0,496.0,414.0,18.0,11.54,539.0,6545.59,3528073.01,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.5 days, before supplier lead time of 18.0 days."
+102,Ventilator,V002,EquipMed Co.,2871.0,469.0,435.0,14.0,6.6,310.0,11010.6,3413286.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 14.0 days."
+102,Ventilator,V002,EquipMed Co.,2871.0,469.0,435.0,14.0,6.6,310.0,11010.6,3413286.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 14.0 days."
+108,X-ray Machine,V002,EquipMed Co.,1089.0,964.0,250.0,20.0,4.36,1557.0,2055.54,3200475.78,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.4 days, before supplier lead time of 20.0 days."
+108,X-ray Machine,V002,EquipMed Co.,1089.0,964.0,250.0,20.0,4.36,1557.0,2055.54,3200475.78,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.4 days, before supplier lead time of 20.0 days."
+107,Ventilator,V002,EquipMed Co.,2023.0,83.0,425.0,20.0,4.76,1841.0,1638.81,3017049.21,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.8 days, before supplier lead time of 20.0 days."
+107,Ventilator,V002,EquipMed Co.,2023.0,83.0,425.0,20.0,4.76,1841.0,1638.81,3017049.21,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.8 days, before supplier lead time of 20.0 days."
+101,Ventilator,V001,MedSupplies Inc.,497.0,214.0,471.0,3.0,1.06,1313.0,1953.94,2565523.22,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.1 days, before supplier lead time of 3.0 days."
+101,Ventilator,V001,MedSupplies Inc.,497.0,214.0,471.0,3.0,1.06,1313.0,1953.94,2565523.22,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 1.1 days, before supplier lead time of 3.0 days."
+100,IV Drip,V001,MedSupplies Inc.,2968.0,280.0,383.0,8.0,7.75,435.0,4687.32,2038984.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.7 days, before supplier lead time of 8.0 days."
+100,IV Drip,V001,MedSupplies Inc.,2968.0,280.0,383.0,8.0,7.75,435.0,4687.32,2038984.2,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.7 days, before supplier lead time of 8.0 days."
+104,Gloves,V001,MedSupplies Inc.,1302.0,514.0,170.0,12.0,7.66,324.0,6128.89,1985760.36,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.7 days, before supplier lead time of 12.0 days."
+104,Gloves,V001,MedSupplies Inc.,1302.0,514.0,170.0,12.0,7.66,324.0,6128.89,1985760.36,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.7 days, before supplier lead time of 12.0 days."
+101,Ventilator,V003,HealthTools Ltd.,3582.0,967.0,340.0,21.0,10.54,339.0,5117.16,1734717.24,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.5 days, before supplier lead time of 21.0 days."
+101,Ventilator,V003,HealthTools Ltd.,3582.0,967.0,340.0,21.0,10.54,339.0,5117.16,1734717.24,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.5 days, before supplier lead time of 21.0 days."
+108,Gloves,V002,EquipMed Co.,3504.0,242.0,179.0,25.0,19.58,2444.0,600.78,1468306.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 19.6 days, before supplier lead time of 25.0 days."
+108,Gloves,V002,EquipMed Co.,3504.0,242.0,179.0,25.0,19.58,2444.0,600.78,1468306.32,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 19.6 days, before supplier lead time of 25.0 days."
+100,X-ray Machine,V003,HealthTools Ltd.,2021.0,389.0,278.0,8.0,7.27,248.0,5747.94,1425489.12,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 8.0 days."
+100,X-ray Machine,V003,HealthTools Ltd.,2021.0,389.0,278.0,8.0,7.27,248.0,5747.94,1425489.12,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 8.0 days."
+107,IV Drip,V001,MedSupplies Inc.,2453.0,449.0,285.0,10.0,8.61,1246.0,1094.03,1363161.38,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.6 days, before supplier lead time of 10.0 days."
+107,IV Drip,V001,MedSupplies Inc.,2453.0,449.0,285.0,10.0,8.61,1246.0,1094.03,1363161.38,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.6 days, before supplier lead time of 10.0 days."
+104,Surgical Mask,V002,EquipMed Co.,2018.0,181.0,287.0,17.0,7.03,662.0,1244.96,824163.52,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 17.0 days."
+104,Surgical Mask,V002,EquipMed Co.,2018.0,181.0,287.0,17.0,7.03,662.0,1244.96,824163.52,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 17.0 days."
+102,Surgical Mask,V001,MedSupplies Inc.,2370.0,973.0,298.0,26.0,7.95,1082.0,758.71,820924.22,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 26.0 days."
+102,Surgical Mask,V001,MedSupplies Inc.,2370.0,973.0,298.0,26.0,7.95,1082.0,758.71,820924.22,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 26.0 days."
+100,Gloves,V003,HealthTools Ltd.,1293.0,656.0,489.0,10.0,2.64,2454.0,311.77,765083.58,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.6 days, before supplier lead time of 10.0 days."
+100,Gloves,V003,HealthTools Ltd.,1293.0,656.0,489.0,10.0,2.64,2454.0,311.77,765083.58,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 2.6 days, before supplier lead time of 10.0 days."
+108,Surgical Mask,V003,HealthTools Ltd.,3962.0,545.0,466.0,17.0,8.5,40.0,16497.31,659892.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.5 days, before supplier lead time of 17.0 days."
+108,Surgical Mask,V003,HealthTools Ltd.,3962.0,545.0,466.0,17.0,8.5,40.0,16497.31,659892.4,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.5 days, before supplier lead time of 17.0 days."
+104,IV Drip,V001,MedSupplies Inc.,1204.0,277.0,330.0,5.0,3.65,48.0,13250.46,636022.08,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.6 days, before supplier lead time of 5.0 days."
+104,IV Drip,V001,MedSupplies Inc.,1204.0,277.0,330.0,5.0,3.65,48.0,13250.46,636022.08,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.6 days, before supplier lead time of 5.0 days."
+109,IV Drip,V001,MedSupplies Inc.,1593.0,605.0,276.0,6.0,5.77,1685.0,351.47,592226.95,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 6.0 days."
+109,IV Drip,V001,MedSupplies Inc.,1593.0,605.0,276.0,6.0,5.77,1685.0,351.47,592226.95,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 6.0 days."
+104,Surgical Mask,V001,MedSupplies Inc.,3449.0,369.0,326.0,11.0,10.58,33.0,13596.86,448696.38,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.6 days, before supplier lead time of 11.0 days."
+104,Surgical Mask,V001,MedSupplies Inc.,3449.0,369.0,326.0,11.0,10.58,33.0,13596.86,448696.38,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.6 days, before supplier lead time of 11.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,4193.0,304.0,419.0,27.0,10.01,20.0,90.3,1806.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.0 days, before supplier lead time of 27.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,4193.0,304.0,419.0,27.0,10.01,20.0,90.3,1806.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.0 days, before supplier lead time of 27.0 days."
+105,Ventilator,V001,MedSupplies Inc.,1542.0,264.0,108.0,17.0,14.28,0.0,4467.55,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.3 days, before supplier lead time of 17.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2038.0,438.0,207.0,15.0,9.85,0.0,744.1,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.8 days, before supplier lead time of 15.0 days."
+109,IV Drip,V002,EquipMed Co.,2258.0,402.0,386.0,26.0,5.85,0.0,15246.06,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 26.0 days."
+101,Gloves,V003,HealthTools Ltd.,4719.0,239.0,198.0,24.0,23.83,0.0,2865.49,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 23.8 days, before supplier lead time of 24.0 days."
+109,IV Drip,V001,MedSupplies Inc.,2912.0,405.0,374.0,17.0,7.79,0.0,17313.6,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.8 days, before supplier lead time of 17.0 days."
+109,Ventilator,V003,HealthTools Ltd.,2519.0,338.0,415.0,19.0,6.07,0.0,12310.83,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.1 days, before supplier lead time of 19.0 days."
+102,Gloves,V003,HealthTools Ltd.,4900.0,665.0,470.0,25.0,10.43,0.0,11625.6,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.4 days, before supplier lead time of 25.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,1732.0,612.0,378.0,26.0,4.58,0.0,10382.88,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.6 days, before supplier lead time of 26.0 days."
+105,IV Drip,V001,MedSupplies Inc.,3842.0,196.0,334.0,23.0,11.5,0.0,14073.16,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.5 days, before supplier lead time of 23.0 days."
+101,IV Drip,V002,EquipMed Co.,4032.0,295.0,319.0,29.0,12.64,0.0,18394.64,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.6 days, before supplier lead time of 29.0 days."
+109,Gloves,V003,HealthTools Ltd.,3638.0,753.0,328.0,21.0,11.09,0.0,10135.64,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.1 days, before supplier lead time of 21.0 days."
+100,Ventilator,V001,MedSupplies Inc.,2632.0,85.0,300.0,23.0,8.77,0.0,8037.19,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.8 days, before supplier lead time of 23.0 days."
+103,IV Drip,V002,EquipMed Co.,4957.0,107.0,444.0,16.0,11.16,0.0,15954.34,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.2 days, before supplier lead time of 16.0 days."
+106,Surgical Mask,V001,MedSupplies Inc.,1714.0,768.0,256.0,15.0,6.7,0.0,9796.68,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.7 days, before supplier lead time of 15.0 days."
+104,IV Drip,V002,EquipMed Co.,3473.0,867.0,489.0,29.0,7.1,0.0,5281.82,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 29.0 days."
+104,X-ray Machine,V002,EquipMed Co.,2288.0,50.0,248.0,18.0,9.23,0.0,13481.71,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.2 days, before supplier lead time of 18.0 days."
+104,IV Drip,V001,MedSupplies Inc.,4909.0,208.0,388.0,28.0,12.65,0.0,6455.81,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.7 days, before supplier lead time of 28.0 days."
+100,IV Drip,V001,MedSupplies Inc.,2748.0,167.0,188.0,25.0,14.62,0.0,3509.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.6 days, before supplier lead time of 25.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,4184.0,633.0,307.0,14.0,13.63,0.0,10943.91,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.6 days, before supplier lead time of 14.0 days."
+100,IV Drip,V003,HealthTools Ltd.,1395.0,956.0,200.0,7.0,6.97,0.0,2818.77,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 7.0 days."
+100,IV Drip,V002,EquipMed Co.,2712.0,721.0,270.0,14.0,10.04,0.0,17348.74,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.0 days, before supplier lead time of 14.0 days."
+102,Ventilator,V003,HealthTools Ltd.,2180.0,825.0,152.0,17.0,14.34,0.0,9337.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.3 days, before supplier lead time of 17.0 days."
+102,Ventilator,V003,HealthTools Ltd.,4261.0,721.0,442.0,17.0,9.64,0.0,2334.56,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.6 days, before supplier lead time of 17.0 days."
+106,Ventilator,V002,EquipMed Co.,3627.0,15.0,222.0,24.0,16.34,0.0,16754.86,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.3 days, before supplier lead time of 24.0 days."
+106,IV Drip,V003,HealthTools Ltd.,3831.0,571.0,239.0,18.0,16.03,0.0,4108.2,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.0 days, before supplier lead time of 18.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2283.0,332.0,207.0,23.0,11.03,0.0,15330.07,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.0 days, before supplier lead time of 23.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,4976.0,204.0,435.0,28.0,11.44,0.0,12211.46,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.4 days, before supplier lead time of 28.0 days."
+108,IV Drip,V002,EquipMed Co.,1678.0,110.0,136.0,26.0,12.34,0.0,8742.17,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.3 days, before supplier lead time of 26.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2206.0,792.0,466.0,6.0,4.73,0.0,8376.04,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.7 days, before supplier lead time of 6.0 days."
+104,Surgical Mask,V001,MedSupplies Inc.,4729.0,679.0,464.0,16.0,10.19,0.0,11237.37,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.2 days, before supplier lead time of 16.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,2842.0,829.0,171.0,26.0,16.62,0.0,9049.9,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.6 days, before supplier lead time of 26.0 days."
+107,Ventilator,V002,EquipMed Co.,3517.0,72.0,424.0,11.0,8.29,0.0,15939.13,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.3 days, before supplier lead time of 11.0 days."
+108,Ventilator,V001,MedSupplies Inc.,2991.0,463.0,167.0,19.0,17.91,0.0,7070.18,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 17.9 days, before supplier lead time of 19.0 days."
+108,Gloves,V003,HealthTools Ltd.,1385.0,540.0,248.0,27.0,5.58,0.0,9038.79,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 27.0 days."
+108,Gloves,V003,HealthTools Ltd.,1959.0,117.0,357.0,25.0,5.49,0.0,12845.61,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.5 days, before supplier lead time of 25.0 days."
+103,Gloves,V001,MedSupplies Inc.,3268.0,279.0,198.0,25.0,16.51,0.0,17113.0,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.5 days, before supplier lead time of 25.0 days."
+106,Surgical Mask,V002,EquipMed Co.,4209.0,77.0,490.0,14.0,8.59,0.0,10835.1,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.6 days, before supplier lead time of 14.0 days."
+106,X-ray Machine,V001,MedSupplies Inc.,3043.0,411.0,423.0,25.0,7.19,0.0,5623.07,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.2 days, before supplier lead time of 25.0 days."
+107,IV Drip,V001,MedSupplies Inc.,4293.0,27.0,299.0,16.0,14.36,0.0,15898.63,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.4 days, before supplier lead time of 16.0 days."
+103,X-ray Machine,V002,EquipMed Co.,2554.0,873.0,386.0,13.0,6.62,0.0,3528.79,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 13.0 days."
+103,Ventilator,V001,MedSupplies Inc.,2307.0,215.0,163.0,26.0,14.15,0.0,7714.83,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.2 days, before supplier lead time of 26.0 days."
+103,Surgical Mask,V002,EquipMed Co.,1225.0,401.0,299.0,21.0,4.1,0.0,4554.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 21.0 days."
+109,IV Drip,V003,HealthTools Ltd.,4652.0,565.0,427.0,11.0,10.89,0.0,12197.47,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.9 days, before supplier lead time of 11.0 days."
+103,Gloves,V002,EquipMed Co.,1951.0,358.0,488.0,29.0,4.0,0.0,6433.42,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.0 days, before supplier lead time of 29.0 days."
+105,Surgical Mask,V003,HealthTools Ltd.,2718.0,36.0,349.0,10.0,7.79,0.0,13601.84,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.8 days, before supplier lead time of 10.0 days."
+100,X-ray Machine,V003,HealthTools Ltd.,4732.0,487.0,381.0,24.0,12.42,0.0,4010.43,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.4 days, before supplier lead time of 24.0 days."
+108,Gloves,V001,MedSupplies Inc.,3261.0,897.0,409.0,25.0,7.97,0.0,6876.61,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 25.0 days."
+101,Gloves,V001,MedSupplies Inc.,4860.0,450.0,429.0,18.0,11.33,0.0,3916.18,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.3 days, before supplier lead time of 18.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2466.0,742.0,462.0,22.0,5.34,0.0,4760.82,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.3 days, before supplier lead time of 22.0 days."
+104,X-ray Machine,V003,HealthTools Ltd.,1451.0,659.0,228.0,9.0,6.36,0.0,2902.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.4 days, before supplier lead time of 9.0 days."
+101,X-ray Machine,V002,EquipMed Co.,3928.0,774.0,419.0,10.0,9.37,0.0,7804.91,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.4 days, before supplier lead time of 10.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,3694.0,455.0,245.0,20.0,15.08,0.0,9237.32,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.1 days, before supplier lead time of 20.0 days."
+107,Gloves,V002,EquipMed Co.,4788.0,976.0,304.0,27.0,15.75,0.0,3556.21,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.8 days, before supplier lead time of 27.0 days."
+101,Surgical Mask,V002,EquipMed Co.,3015.0,667.0,313.0,29.0,9.63,0.0,14328.34,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.6 days, before supplier lead time of 29.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,2692.0,596.0,358.0,9.0,7.52,0.0,19844.87,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.5 days, before supplier lead time of 9.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,3913.0,304.0,343.0,18.0,11.41,0.0,3195.0,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.4 days, before supplier lead time of 18.0 days."
+107,Ventilator,V002,EquipMed Co.,2463.0,213.0,425.0,25.0,5.8,0.0,9146.87,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 25.0 days."
+108,Ventilator,V003,HealthTools Ltd.,4402.0,879.0,351.0,15.0,12.54,0.0,15251.73,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.5 days, before supplier lead time of 15.0 days."
+107,Surgical Mask,V003,HealthTools Ltd.,3308.0,155.0,439.0,27.0,7.54,0.0,14587.84,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.5 days, before supplier lead time of 27.0 days."
+104,IV Drip,V003,HealthTools Ltd.,3932.0,133.0,350.0,16.0,11.23,0.0,9426.57,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.2 days, before supplier lead time of 16.0 days."
+104,IV Drip,V001,MedSupplies Inc.,4012.0,709.0,185.0,23.0,21.69,0.0,332.31,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 21.7 days, before supplier lead time of 23.0 days."
+105,IV Drip,V001,MedSupplies Inc.,3554.0,973.0,405.0,24.0,8.78,0.0,4489.01,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.8 days, before supplier lead time of 24.0 days."
+104,X-ray Machine,V002,EquipMed Co.,4223.0,967.0,494.0,21.0,8.55,0.0,12101.98,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.5 days, before supplier lead time of 21.0 days."
+107,Ventilator,V003,HealthTools Ltd.,2491.0,794.0,441.0,6.0,5.65,0.0,17744.44,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 6.0 days."
+103,X-ray Machine,V003,HealthTools Ltd.,1238.0,784.0,341.0,16.0,3.63,0.0,5598.83,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.6 days, before supplier lead time of 16.0 days."
+101,X-ray Machine,V003,HealthTools Ltd.,4964.0,735.0,404.0,17.0,12.29,0.0,4664.74,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.3 days, before supplier lead time of 17.0 days."
+105,Gloves,V001,MedSupplies Inc.,2588.0,768.0,115.0,27.0,22.5,0.0,7924.06,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 22.5 days, before supplier lead time of 27.0 days."
+100,X-ray Machine,V003,HealthTools Ltd.,4174.0,521.0,301.0,19.0,13.87,0.0,17074.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.9 days, before supplier lead time of 19.0 days."
+109,IV Drip,V001,MedSupplies Inc.,3936.0,686.0,374.0,18.0,10.52,0.0,9709.02,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.5 days, before supplier lead time of 18.0 days."
+109,X-ray Machine,V002,EquipMed Co.,3877.0,909.0,401.0,16.0,9.67,0.0,5245.0,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 16.0 days."
+108,Surgical Mask,V002,EquipMed Co.,4974.0,942.0,373.0,24.0,13.34,0.0,16517.32,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.3 days, before supplier lead time of 24.0 days."
+101,Surgical Mask,V002,EquipMed Co.,2704.0,44.0,172.0,17.0,15.72,0.0,5054.72,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.7 days, before supplier lead time of 17.0 days."
+104,Surgical Mask,V001,MedSupplies Inc.,3000.0,598.0,441.0,10.0,6.8,0.0,15441.35,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 10.0 days."
+109,Gloves,V001,MedSupplies Inc.,4433.0,570.0,297.0,24.0,14.93,0.0,17784.06,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.9 days, before supplier lead time of 24.0 days."
+106,X-ray Machine,V003,HealthTools Ltd.,4413.0,617.0,384.0,23.0,11.49,0.0,12963.82,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.5 days, before supplier lead time of 23.0 days."
+101,IV Drip,V001,MedSupplies Inc.,4678.0,807.0,397.0,16.0,11.78,0.0,12051.42,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.8 days, before supplier lead time of 16.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,4416.0,535.0,252.0,23.0,17.52,0.0,14467.77,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 17.5 days, before supplier lead time of 23.0 days."
+104,X-ray Machine,V001,MedSupplies Inc.,2887.0,943.0,393.0,19.0,7.35,0.0,2920.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 19.0 days."
+106,Ventilator,V001,MedSupplies Inc.,2440.0,906.0,477.0,24.0,5.12,0.0,9400.61,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.1 days, before supplier lead time of 24.0 days."
+109,Ventilator,V002,EquipMed Co.,4070.0,827.0,279.0,25.0,14.59,0.0,15350.9,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.6 days, before supplier lead time of 25.0 days."
+103,Ventilator,V003,HealthTools Ltd.,3770.0,264.0,257.0,19.0,14.67,0.0,2572.32,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.7 days, before supplier lead time of 19.0 days."
+103,Gloves,V003,HealthTools Ltd.,2672.0,504.0,394.0,27.0,6.78,0.0,11552.65,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 27.0 days."
+100,X-ray Machine,V002,EquipMed Co.,2647.0,340.0,450.0,26.0,5.88,0.0,18764.62,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.9 days, before supplier lead time of 26.0 days."
+104,Ventilator,V001,MedSupplies Inc.,4913.0,945.0,425.0,14.0,11.56,0.0,12740.92,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.6 days, before supplier lead time of 14.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,3694.0,583.0,489.0,22.0,7.55,0.0,6011.49,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.6 days, before supplier lead time of 22.0 days."
+103,Gloves,V001,MedSupplies Inc.,2159.0,619.0,465.0,14.0,4.64,0.0,6477.87,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.6 days, before supplier lead time of 14.0 days."
+103,Ventilator,V002,EquipMed Co.,2556.0,254.0,425.0,25.0,6.01,0.0,10643.49,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.0 days, before supplier lead time of 25.0 days."
+103,Ventilator,V003,HealthTools Ltd.,3384.0,922.0,121.0,29.0,27.97,0.0,1962.92,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 28.0 days, before supplier lead time of 29.0 days."
+108,Gloves,V003,HealthTools Ltd.,1450.0,990.0,149.0,13.0,9.73,0.0,18954.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 13.0 days."
+109,Gloves,V001,MedSupplies Inc.,1591.0,598.0,481.0,17.0,3.31,0.0,4632.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.3 days, before supplier lead time of 17.0 days."
+103,IV Drip,V002,EquipMed Co.,2883.0,901.0,213.0,17.0,13.54,0.0,3972.74,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.5 days, before supplier lead time of 17.0 days."
+100,X-ray Machine,V001,MedSupplies Inc.,3988.0,144.0,357.0,23.0,11.17,0.0,9446.07,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.2 days, before supplier lead time of 23.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,4017.0,535.0,275.0,29.0,14.61,0.0,19193.19,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.6 days, before supplier lead time of 29.0 days."
+103,Gloves,V002,EquipMed Co.,3122.0,67.0,192.0,18.0,16.26,0.0,9719.26,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.3 days, before supplier lead time of 18.0 days."
+107,IV Drip,V002,EquipMed Co.,2995.0,574.0,427.0,21.0,7.01,0.0,6259.41,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 21.0 days."
+102,Surgical Mask,V003,HealthTools Ltd.,3099.0,848.0,437.0,10.0,7.09,0.0,12294.92,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 10.0 days."
+105,Gloves,V003,HealthTools Ltd.,3619.0,710.0,450.0,19.0,8.04,0.0,19098.93,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 19.0 days."
+105,Ventilator,V001,MedSupplies Inc.,1542.0,264.0,108.0,17.0,14.28,0.0,4467.55,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.3 days, before supplier lead time of 17.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2038.0,438.0,207.0,15.0,9.85,0.0,744.1,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.8 days, before supplier lead time of 15.0 days."
+109,IV Drip,V002,EquipMed Co.,2258.0,402.0,386.0,26.0,5.85,0.0,15246.06,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 26.0 days."
+101,Gloves,V003,HealthTools Ltd.,4719.0,239.0,198.0,24.0,23.83,0.0,2865.49,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 23.8 days, before supplier lead time of 24.0 days."
+109,IV Drip,V001,MedSupplies Inc.,2912.0,405.0,374.0,17.0,7.79,0.0,17313.6,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.8 days, before supplier lead time of 17.0 days."
+109,Ventilator,V003,HealthTools Ltd.,2519.0,338.0,415.0,19.0,6.07,0.0,12310.83,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.1 days, before supplier lead time of 19.0 days."
+102,Gloves,V003,HealthTools Ltd.,4900.0,665.0,470.0,25.0,10.43,0.0,11625.6,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.4 days, before supplier lead time of 25.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,1732.0,612.0,378.0,26.0,4.58,0.0,10382.88,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.6 days, before supplier lead time of 26.0 days."
+105,IV Drip,V001,MedSupplies Inc.,3842.0,196.0,334.0,23.0,11.5,0.0,14073.16,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.5 days, before supplier lead time of 23.0 days."
+101,IV Drip,V002,EquipMed Co.,4032.0,295.0,319.0,29.0,12.64,0.0,18394.64,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.6 days, before supplier lead time of 29.0 days."
+109,Gloves,V003,HealthTools Ltd.,3638.0,753.0,328.0,21.0,11.09,0.0,10135.64,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.1 days, before supplier lead time of 21.0 days."
+100,Ventilator,V001,MedSupplies Inc.,2632.0,85.0,300.0,23.0,8.77,0.0,8037.19,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.8 days, before supplier lead time of 23.0 days."
+103,IV Drip,V002,EquipMed Co.,4957.0,107.0,444.0,16.0,11.16,0.0,15954.34,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.2 days, before supplier lead time of 16.0 days."
+106,Surgical Mask,V001,MedSupplies Inc.,1714.0,768.0,256.0,15.0,6.7,0.0,9796.68,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.7 days, before supplier lead time of 15.0 days."
+104,IV Drip,V002,EquipMed Co.,3473.0,867.0,489.0,29.0,7.1,0.0,5281.82,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 29.0 days."
+104,X-ray Machine,V002,EquipMed Co.,2288.0,50.0,248.0,18.0,9.23,0.0,13481.71,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.2 days, before supplier lead time of 18.0 days."
+104,IV Drip,V001,MedSupplies Inc.,4909.0,208.0,388.0,28.0,12.65,0.0,6455.81,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.7 days, before supplier lead time of 28.0 days."
+100,IV Drip,V001,MedSupplies Inc.,2748.0,167.0,188.0,25.0,14.62,0.0,3509.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.6 days, before supplier lead time of 25.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,4184.0,633.0,307.0,14.0,13.63,0.0,10943.91,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.6 days, before supplier lead time of 14.0 days."
+100,IV Drip,V003,HealthTools Ltd.,1395.0,956.0,200.0,7.0,6.97,0.0,2818.77,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 7.0 days."
+100,IV Drip,V002,EquipMed Co.,2712.0,721.0,270.0,14.0,10.04,0.0,17348.74,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.0 days, before supplier lead time of 14.0 days."
+102,Ventilator,V003,HealthTools Ltd.,2180.0,825.0,152.0,17.0,14.34,0.0,9337.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.3 days, before supplier lead time of 17.0 days."
+102,Ventilator,V003,HealthTools Ltd.,4261.0,721.0,442.0,17.0,9.64,0.0,2334.56,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.6 days, before supplier lead time of 17.0 days."
+106,Ventilator,V002,EquipMed Co.,3627.0,15.0,222.0,24.0,16.34,0.0,16754.86,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.3 days, before supplier lead time of 24.0 days."
+106,IV Drip,V003,HealthTools Ltd.,3831.0,571.0,239.0,18.0,16.03,0.0,4108.2,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.0 days, before supplier lead time of 18.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2283.0,332.0,207.0,23.0,11.03,0.0,15330.07,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.0 days, before supplier lead time of 23.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,4976.0,204.0,435.0,28.0,11.44,0.0,12211.46,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.4 days, before supplier lead time of 28.0 days."
+108,IV Drip,V002,EquipMed Co.,1678.0,110.0,136.0,26.0,12.34,0.0,8742.17,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.3 days, before supplier lead time of 26.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2206.0,792.0,466.0,6.0,4.73,0.0,8376.04,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.7 days, before supplier lead time of 6.0 days."
+104,Surgical Mask,V001,MedSupplies Inc.,4729.0,679.0,464.0,16.0,10.19,0.0,11237.37,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.2 days, before supplier lead time of 16.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,2842.0,829.0,171.0,26.0,16.62,0.0,9049.9,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.6 days, before supplier lead time of 26.0 days."
+107,Ventilator,V002,EquipMed Co.,3517.0,72.0,424.0,11.0,8.29,0.0,15939.13,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.3 days, before supplier lead time of 11.0 days."
+108,Ventilator,V001,MedSupplies Inc.,2991.0,463.0,167.0,19.0,17.91,0.0,7070.18,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 17.9 days, before supplier lead time of 19.0 days."
+108,Gloves,V003,HealthTools Ltd.,1385.0,540.0,248.0,27.0,5.58,0.0,9038.79,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 27.0 days."
+108,Gloves,V003,HealthTools Ltd.,1959.0,117.0,357.0,25.0,5.49,0.0,12845.61,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.5 days, before supplier lead time of 25.0 days."
+103,Gloves,V001,MedSupplies Inc.,3268.0,279.0,198.0,25.0,16.51,0.0,17113.0,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.5 days, before supplier lead time of 25.0 days."
+106,Surgical Mask,V002,EquipMed Co.,4209.0,77.0,490.0,14.0,8.59,0.0,10835.1,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.6 days, before supplier lead time of 14.0 days."
+106,X-ray Machine,V001,MedSupplies Inc.,3043.0,411.0,423.0,25.0,7.19,0.0,5623.07,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.2 days, before supplier lead time of 25.0 days."
+107,IV Drip,V001,MedSupplies Inc.,4293.0,27.0,299.0,16.0,14.36,0.0,15898.63,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.4 days, before supplier lead time of 16.0 days."
+103,X-ray Machine,V002,EquipMed Co.,2554.0,873.0,386.0,13.0,6.62,0.0,3528.79,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.6 days, before supplier lead time of 13.0 days."
+103,Ventilator,V001,MedSupplies Inc.,2307.0,215.0,163.0,26.0,14.15,0.0,7714.83,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.2 days, before supplier lead time of 26.0 days."
+103,Surgical Mask,V002,EquipMed Co.,1225.0,401.0,299.0,21.0,4.1,0.0,4554.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.1 days, before supplier lead time of 21.0 days."
+109,IV Drip,V003,HealthTools Ltd.,4652.0,565.0,427.0,11.0,10.89,0.0,12197.47,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.9 days, before supplier lead time of 11.0 days."
+103,Gloves,V002,EquipMed Co.,1951.0,358.0,488.0,29.0,4.0,0.0,6433.42,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.0 days, before supplier lead time of 29.0 days."
+105,Surgical Mask,V003,HealthTools Ltd.,2718.0,36.0,349.0,10.0,7.79,0.0,13601.84,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.8 days, before supplier lead time of 10.0 days."
+100,X-ray Machine,V003,HealthTools Ltd.,4732.0,487.0,381.0,24.0,12.42,0.0,4010.43,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.4 days, before supplier lead time of 24.0 days."
+108,Gloves,V001,MedSupplies Inc.,3261.0,897.0,409.0,25.0,7.97,0.0,6876.61,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 25.0 days."
+101,Gloves,V001,MedSupplies Inc.,4860.0,450.0,429.0,18.0,11.33,0.0,3916.18,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.3 days, before supplier lead time of 18.0 days."
+103,Surgical Mask,V002,EquipMed Co.,2466.0,742.0,462.0,22.0,5.34,0.0,4760.82,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.3 days, before supplier lead time of 22.0 days."
+104,X-ray Machine,V003,HealthTools Ltd.,1451.0,659.0,228.0,9.0,6.36,0.0,2902.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.4 days, before supplier lead time of 9.0 days."
+101,X-ray Machine,V002,EquipMed Co.,3928.0,774.0,419.0,10.0,9.37,0.0,7804.91,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.4 days, before supplier lead time of 10.0 days."
+102,X-ray Machine,V001,MedSupplies Inc.,3694.0,455.0,245.0,20.0,15.08,0.0,9237.32,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.1 days, before supplier lead time of 20.0 days."
+107,Gloves,V002,EquipMed Co.,4788.0,976.0,304.0,27.0,15.75,0.0,3556.21,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.8 days, before supplier lead time of 27.0 days."
+101,Surgical Mask,V002,EquipMed Co.,3015.0,667.0,313.0,29.0,9.63,0.0,14328.34,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.6 days, before supplier lead time of 29.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,2692.0,596.0,358.0,9.0,7.52,0.0,19844.87,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.5 days, before supplier lead time of 9.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,3913.0,304.0,343.0,18.0,11.41,0.0,3195.0,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.4 days, before supplier lead time of 18.0 days."
+107,Ventilator,V002,EquipMed Co.,2463.0,213.0,425.0,25.0,5.8,0.0,9146.87,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.8 days, before supplier lead time of 25.0 days."
+108,Ventilator,V003,HealthTools Ltd.,4402.0,879.0,351.0,15.0,12.54,0.0,15251.73,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.5 days, before supplier lead time of 15.0 days."
+107,Surgical Mask,V003,HealthTools Ltd.,3308.0,155.0,439.0,27.0,7.54,0.0,14587.84,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.5 days, before supplier lead time of 27.0 days."
+104,IV Drip,V003,HealthTools Ltd.,3932.0,133.0,350.0,16.0,11.23,0.0,9426.57,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.2 days, before supplier lead time of 16.0 days."
+104,IV Drip,V001,MedSupplies Inc.,4012.0,709.0,185.0,23.0,21.69,0.0,332.31,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 21.7 days, before supplier lead time of 23.0 days."
+105,IV Drip,V001,MedSupplies Inc.,3554.0,973.0,405.0,24.0,8.78,0.0,4489.01,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.8 days, before supplier lead time of 24.0 days."
+104,X-ray Machine,V002,EquipMed Co.,4223.0,967.0,494.0,21.0,8.55,0.0,12101.98,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.5 days, before supplier lead time of 21.0 days."
+107,Ventilator,V003,HealthTools Ltd.,2491.0,794.0,441.0,6.0,5.65,0.0,17744.44,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.6 days, before supplier lead time of 6.0 days."
+103,X-ray Machine,V003,HealthTools Ltd.,1238.0,784.0,341.0,16.0,3.63,0.0,5598.83,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.6 days, before supplier lead time of 16.0 days."
+101,X-ray Machine,V003,HealthTools Ltd.,4964.0,735.0,404.0,17.0,12.29,0.0,4664.74,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 12.3 days, before supplier lead time of 17.0 days."
+105,Gloves,V001,MedSupplies Inc.,2588.0,768.0,115.0,27.0,22.5,0.0,7924.06,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 22.5 days, before supplier lead time of 27.0 days."
+100,X-ray Machine,V003,HealthTools Ltd.,4174.0,521.0,301.0,19.0,13.87,0.0,17074.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.9 days, before supplier lead time of 19.0 days."
+109,IV Drip,V001,MedSupplies Inc.,3936.0,686.0,374.0,18.0,10.52,0.0,9709.02,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 10.5 days, before supplier lead time of 18.0 days."
+109,X-ray Machine,V002,EquipMed Co.,3877.0,909.0,401.0,16.0,9.67,0.0,5245.0,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 16.0 days."
+108,Surgical Mask,V002,EquipMed Co.,4974.0,942.0,373.0,24.0,13.34,0.0,16517.32,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.3 days, before supplier lead time of 24.0 days."
+101,Surgical Mask,V002,EquipMed Co.,2704.0,44.0,172.0,17.0,15.72,0.0,5054.72,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 15.7 days, before supplier lead time of 17.0 days."
+104,Surgical Mask,V001,MedSupplies Inc.,3000.0,598.0,441.0,10.0,6.8,0.0,15441.35,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 10.0 days."
+109,Gloves,V001,MedSupplies Inc.,4433.0,570.0,297.0,24.0,14.93,0.0,17784.06,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.9 days, before supplier lead time of 24.0 days."
+106,X-ray Machine,V003,HealthTools Ltd.,4413.0,617.0,384.0,23.0,11.49,0.0,12963.82,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.5 days, before supplier lead time of 23.0 days."
+101,IV Drip,V001,MedSupplies Inc.,4678.0,807.0,397.0,16.0,11.78,0.0,12051.42,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.8 days, before supplier lead time of 16.0 days."
+103,Surgical Mask,V001,MedSupplies Inc.,4416.0,535.0,252.0,23.0,17.52,0.0,14467.77,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 17.5 days, before supplier lead time of 23.0 days."
+104,X-ray Machine,V001,MedSupplies Inc.,2887.0,943.0,393.0,19.0,7.35,0.0,2920.51,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.3 days, before supplier lead time of 19.0 days."
+106,Ventilator,V001,MedSupplies Inc.,2440.0,906.0,477.0,24.0,5.12,0.0,9400.61,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.1 days, before supplier lead time of 24.0 days."
+109,Ventilator,V002,EquipMed Co.,4070.0,827.0,279.0,25.0,14.59,0.0,15350.9,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.6 days, before supplier lead time of 25.0 days."
+103,Ventilator,V003,HealthTools Ltd.,3770.0,264.0,257.0,19.0,14.67,0.0,2572.32,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.7 days, before supplier lead time of 19.0 days."
+103,Gloves,V003,HealthTools Ltd.,2672.0,504.0,394.0,27.0,6.78,0.0,11552.65,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.8 days, before supplier lead time of 27.0 days."
+100,X-ray Machine,V002,EquipMed Co.,2647.0,340.0,450.0,26.0,5.88,0.0,18764.62,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 5.9 days, before supplier lead time of 26.0 days."
+104,Ventilator,V001,MedSupplies Inc.,4913.0,945.0,425.0,14.0,11.56,0.0,12740.92,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.6 days, before supplier lead time of 14.0 days."
+107,Surgical Mask,V001,MedSupplies Inc.,3694.0,583.0,489.0,22.0,7.55,0.0,6011.49,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.6 days, before supplier lead time of 22.0 days."
+103,Gloves,V001,MedSupplies Inc.,2159.0,619.0,465.0,14.0,4.64,0.0,6477.87,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 4.6 days, before supplier lead time of 14.0 days."
+103,Ventilator,V002,EquipMed Co.,2556.0,254.0,425.0,25.0,6.01,0.0,10643.49,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 6.0 days, before supplier lead time of 25.0 days."
+103,Ventilator,V003,HealthTools Ltd.,3384.0,922.0,121.0,29.0,27.97,0.0,1962.92,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 28.0 days, before supplier lead time of 29.0 days."
+108,Gloves,V003,HealthTools Ltd.,1450.0,990.0,149.0,13.0,9.73,0.0,18954.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 9.7 days, before supplier lead time of 13.0 days."
+109,Gloves,V001,MedSupplies Inc.,1591.0,598.0,481.0,17.0,3.31,0.0,4632.09,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 3.3 days, before supplier lead time of 17.0 days."
+103,IV Drip,V002,EquipMed Co.,2883.0,901.0,213.0,17.0,13.54,0.0,3972.74,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 13.5 days, before supplier lead time of 17.0 days."
+100,X-ray Machine,V001,MedSupplies Inc.,3988.0,144.0,357.0,23.0,11.17,0.0,9446.07,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 11.2 days, before supplier lead time of 23.0 days."
+109,X-ray Machine,V001,MedSupplies Inc.,4017.0,535.0,275.0,29.0,14.61,0.0,19193.19,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 14.6 days, before supplier lead time of 29.0 days."
+103,Gloves,V002,EquipMed Co.,3122.0,67.0,192.0,18.0,16.26,0.0,9719.26,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 16.3 days, before supplier lead time of 18.0 days."
+107,IV Drip,V002,EquipMed Co.,2995.0,574.0,427.0,21.0,7.01,0.0,6259.41,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.0 days, before supplier lead time of 21.0 days."
+102,Surgical Mask,V003,HealthTools Ltd.,3099.0,848.0,437.0,10.0,7.09,0.0,12294.92,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 7.1 days, before supplier lead time of 10.0 days."
+105,Gloves,V003,HealthTools Ltd.,3619.0,710.0,450.0,19.0,8.04,0.0,19098.93,0.0,HIGH,HIGH,80,ORDER_SOON,"Projected stock-out in 8.0 days, before supplier lead time of 19.0 days."
+106,Surgical Mask,V001,MedSupplies Inc.,1362.0,947.0,40.0,24.0,34.05,3355.0,19594.12,65738272.6,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.0 days.
+106,Surgical Mask,V001,MedSupplies Inc.,1362.0,947.0,40.0,24.0,34.05,3355.0,19594.12,65738272.6,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.0 days.
+106,Surgical Mask,V001,MedSupplies Inc.,1596.0,394.0,129.0,9.0,12.37,2958.0,19242.41,56919048.78,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 12.4 days.
+106,Surgical Mask,V001,MedSupplies Inc.,1596.0,394.0,129.0,9.0,12.37,2958.0,19242.41,56919048.78,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 12.4 days.
+107,Gloves,V001,MedSupplies Inc.,1060.0,117.0,39.0,26.0,27.18,4931.0,11057.94,54526702.14,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.2 days.
+107,Gloves,V001,MedSupplies Inc.,1060.0,117.0,39.0,26.0,27.18,4931.0,11057.94,54526702.14,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.2 days.
+100,Surgical Mask,V001,MedSupplies Inc.,2016.0,624.0,319.0,6.0,6.32,2993.0,17057.52,51053157.36,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.3 days.
+100,Surgical Mask,V001,MedSupplies Inc.,2016.0,624.0,319.0,6.0,6.32,2993.0,17057.52,51053157.36,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.3 days.
+101,Ventilator,V001,MedSupplies Inc.,1908.0,646.0,300.0,5.0,6.36,3597.0,12882.23,46337381.31,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.4 days.
+101,Ventilator,V001,MedSupplies Inc.,1908.0,646.0,300.0,5.0,6.36,3597.0,12882.23,46337381.31,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.4 days.
+106,Gloves,V003,HealthTools Ltd.,2068.0,360.0,233.0,5.0,8.88,3031.0,15149.99,45919619.69,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 8.9 days.
+106,Gloves,V003,HealthTools Ltd.,2068.0,360.0,233.0,5.0,8.88,3031.0,15149.99,45919619.69,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 8.9 days.
+101,X-ray Machine,V001,MedSupplies Inc.,2014.0,137.0,140.0,8.0,14.39,2391.0,18597.0,44465427.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 14.4 days.
+101,X-ray Machine,V001,MedSupplies Inc.,2014.0,137.0,140.0,8.0,14.39,2391.0,18597.0,44465427.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 14.4 days.
+106,Surgical Mask,V003,HealthTools Ltd.,178.0,140.0,151.0,1.0,1.18,4926.0,8070.0,39752820.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 1.2 days.
+106,Surgical Mask,V003,HealthTools Ltd.,178.0,140.0,151.0,1.0,1.18,4926.0,8070.0,39752820.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 1.2 days.
+109,X-ray Machine,V002,EquipMed Co.,1677.0,415.0,315.0,3.0,5.32,2784.0,12123.63,33752185.92,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 5.3 days.
+109,X-ray Machine,V002,EquipMed Co.,1677.0,415.0,315.0,3.0,5.32,2784.0,12123.63,33752185.92,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 5.3 days.
+104,X-ray Machine,V002,EquipMed Co.,2511.0,951.0,442.0,5.0,5.68,2362.0,13751.14,32480192.68,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 5.7 days.
+104,X-ray Machine,V002,EquipMed Co.,2511.0,951.0,442.0,5.0,5.68,2362.0,13751.14,32480192.68,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 5.7 days.
+108,Surgical Mask,V002,EquipMed Co.,957.0,642.0,160.0,5.0,5.98,2760.0,11731.33,32378470.8,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.0 days.
+108,Surgical Mask,V002,EquipMed Co.,957.0,642.0,160.0,5.0,5.98,2760.0,11731.33,32378470.8,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.0 days.
+100,Ventilator,V001,MedSupplies Inc.,1916.0,404.0,195.0,8.0,9.83,1604.0,19150.22,30716952.88,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.8 days.
+100,Ventilator,V001,MedSupplies Inc.,1916.0,404.0,195.0,8.0,9.83,1604.0,19150.22,30716952.88,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.8 days.
+103,Surgical Mask,V003,HealthTools Ltd.,3248.0,486.0,433.0,7.0,7.5,1804.0,16642.78,30023575.12,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.5 days.
+103,Surgical Mask,V003,HealthTools Ltd.,3248.0,486.0,433.0,7.0,7.5,1804.0,16642.78,30023575.12,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.5 days.
+108,X-ray Machine,V002,EquipMed Co.,1661.0,122.0,210.0,5.0,7.91,3111.0,9286.07,28888963.77,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.9 days.
+108,X-ray Machine,V002,EquipMed Co.,1661.0,122.0,210.0,5.0,7.91,3111.0,9286.07,28888963.77,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.9 days.
+109,Gloves,V002,EquipMed Co.,2220.0,742.0,82.0,17.0,27.07,3048.0,9108.27,27762006.96,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.1 days.
+109,Gloves,V002,EquipMed Co.,2220.0,742.0,82.0,17.0,27.07,3048.0,9108.27,27762006.96,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.1 days.
+109,X-ray Machine,V002,EquipMed Co.,3173.0,413.0,414.0,4.0,7.66,1409.0,19119.77,26939755.93,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.7 days.
+109,X-ray Machine,V002,EquipMed Co.,3173.0,413.0,414.0,4.0,7.66,1409.0,19119.77,26939755.93,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.7 days.
+101,IV Drip,V002,EquipMed Co.,2275.0,896.0,238.0,5.0,9.56,1452.0,18130.51,26325500.52,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.6 days.
+101,IV Drip,V002,EquipMed Co.,2275.0,896.0,238.0,5.0,9.56,1452.0,18130.51,26325500.52,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.6 days.
+104,X-ray Machine,V001,MedSupplies Inc.,2730.0,354.0,342.0,4.0,7.98,2184.0,11771.05,25707973.2,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 8.0 days.
+104,X-ray Machine,V001,MedSupplies Inc.,2730.0,354.0,342.0,4.0,7.98,2184.0,11771.05,25707973.2,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 8.0 days.
+105,X-ray Machine,V001,MedSupplies Inc.,2338.0,907.0,54.0,29.0,43.3,2110.0,10111.41,21335075.1,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 43.3 days.
+105,X-ray Machine,V001,MedSupplies Inc.,2338.0,907.0,54.0,29.0,43.3,2110.0,10111.41,21335075.1,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 43.3 days.
+106,Surgical Mask,V001,MedSupplies Inc.,1431.0,612.0,53.0,22.0,27.0,2598.0,7707.98,20025332.04,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.0 days.
+106,Surgical Mask,V001,MedSupplies Inc.,1431.0,612.0,53.0,22.0,27.0,2598.0,7707.98,20025332.04,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.0 days.
+103,Ventilator,V002,EquipMed Co.,4242.0,341.0,240.0,13.0,17.68,1068.0,18607.98,19873322.64,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 17.7 days.
+103,Ventilator,V002,EquipMed Co.,4242.0,341.0,240.0,13.0,17.68,1068.0,18607.98,19873322.64,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 17.7 days.
+106,Gloves,V003,HealthTools Ltd.,1727.0,11.0,266.0,6.0,6.49,3387.0,5860.81,19850563.47,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.5 days.
+106,Gloves,V003,HealthTools Ltd.,1727.0,11.0,266.0,6.0,6.49,3387.0,5860.81,19850563.47,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.5 days.
+106,Surgical Mask,V002,EquipMed Co.,2724.0,916.0,380.0,7.0,7.17,1705.0,11573.76,19733260.8,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.2 days.
+106,Surgical Mask,V002,EquipMed Co.,2724.0,916.0,380.0,7.0,7.17,1705.0,11573.76,19733260.8,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.2 days.
+107,Gloves,V003,HealthTools Ltd.,2341.0,991.0,92.0,24.0,25.45,1545.0,11746.94,18149022.3,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 25.4 days.
+107,Gloves,V003,HealthTools Ltd.,2341.0,991.0,92.0,24.0,25.45,1545.0,11746.94,18149022.3,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 25.4 days.
+101,Gloves,V001,MedSupplies Inc.,2363.0,645.0,105.0,22.0,22.5,2244.0,7760.43,17414404.92,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 22.5 days.
+101,Gloves,V001,MedSupplies Inc.,2363.0,645.0,105.0,22.0,22.5,2244.0,7760.43,17414404.92,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 22.5 days.
+101,Ventilator,V001,MedSupplies Inc.,4541.0,978.0,458.0,5.0,9.91,844.0,15790.87,13327494.28,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.9 days.
+101,Ventilator,V001,MedSupplies Inc.,4541.0,978.0,458.0,5.0,9.91,844.0,15790.87,13327494.28,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.9 days.
+105,Surgical Mask,V003,HealthTools Ltd.,4094.0,443.0,131.0,29.0,31.25,674.0,18790.34,12664689.16,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 31.3 days.
+105,Surgical Mask,V003,HealthTools Ltd.,4094.0,443.0,131.0,29.0,31.25,674.0,18790.34,12664689.16,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 31.3 days.
+101,Gloves,V001,MedSupplies Inc.,4804.0,959.0,177.0,20.0,27.14,819.0,14874.23,12181994.37,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.1 days.
+101,Gloves,V001,MedSupplies Inc.,4804.0,959.0,177.0,20.0,27.14,819.0,14874.23,12181994.37,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.1 days.
+102,Ventilator,V003,HealthTools Ltd.,1308.0,135.0,47.0,22.0,27.83,1217.0,9129.72,11110869.24,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.8 days.
+102,Ventilator,V003,HealthTools Ltd.,1308.0,135.0,47.0,22.0,27.83,1217.0,9129.72,11110869.24,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.8 days.
+105,IV Drip,V003,HealthTools Ltd.,3846.0,713.0,141.0,16.0,27.28,869.0,9439.58,8202995.02,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.3 days.
+105,IV Drip,V003,HealthTools Ltd.,3846.0,713.0,141.0,16.0,27.28,869.0,9439.58,8202995.02,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 27.3 days.
+101,X-ray Machine,V001,MedSupplies Inc.,4879.0,27.0,306.0,8.0,15.94,531.0,14752.14,7833386.34,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.9 days.
+101,X-ray Machine,V001,MedSupplies Inc.,4879.0,27.0,306.0,8.0,15.94,531.0,14752.14,7833386.34,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.9 days.
+100,IV Drip,V001,MedSupplies Inc.,3509.0,497.0,151.0,21.0,23.24,2428.0,2585.84,6278419.52,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 23.2 days.
+100,IV Drip,V001,MedSupplies Inc.,3509.0,497.0,151.0,21.0,23.24,2428.0,2585.84,6278419.52,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 23.2 days.
+109,Surgical Mask,V003,HealthTools Ltd.,3844.0,452.0,253.0,12.0,15.19,477.0,12820.29,6115278.33,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.2 days.
+109,Surgical Mask,V003,HealthTools Ltd.,3844.0,452.0,253.0,12.0,15.19,477.0,12820.29,6115278.33,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.2 days.
+100,Gloves,V001,MedSupplies Inc.,4707.0,21.0,137.0,26.0,34.36,1101.0,4415.31,4861256.31,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.4 days.
+100,Gloves,V001,MedSupplies Inc.,4707.0,21.0,137.0,26.0,34.36,1101.0,4415.31,4861256.31,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.4 days.
+104,X-ray Machine,V003,HealthTools Ltd.,2347.0,65.0,226.0,7.0,10.38,1999.0,2423.11,4843796.89,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 10.4 days.
+104,X-ray Machine,V003,HealthTools Ltd.,2347.0,65.0,226.0,7.0,10.38,1999.0,2423.11,4843796.89,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 10.4 days.
+104,Ventilator,V003,HealthTools Ltd.,2725.0,969.0,79.0,23.0,34.49,403.0,11585.05,4668775.15,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.5 days.
+104,Ventilator,V003,HealthTools Ltd.,2725.0,969.0,79.0,23.0,34.49,403.0,11585.05,4668775.15,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.5 days.
+100,Gloves,V003,HealthTools Ltd.,3134.0,762.0,464.0,5.0,6.75,230.0,16959.77,3900747.1,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.8 days.
+100,Gloves,V003,HealthTools Ltd.,3134.0,762.0,464.0,5.0,6.75,230.0,16959.77,3900747.1,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 6.8 days.
+104,Surgical Mask,V002,EquipMed Co.,2345.0,303.0,153.0,8.0,15.33,353.0,9444.07,3333756.71,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.3 days.
+104,Surgical Mask,V002,EquipMed Co.,2345.0,303.0,153.0,8.0,15.33,353.0,9444.07,3333756.71,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.3 days.
+105,Surgical Mask,V001,MedSupplies Inc.,3728.0,936.0,280.0,12.0,13.31,1789.0,1620.42,2898931.38,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 13.3 days.
+105,Surgical Mask,V001,MedSupplies Inc.,3728.0,936.0,280.0,12.0,13.31,1789.0,1620.42,2898931.38,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 13.3 days.
+102,Ventilator,V002,EquipMed Co.,2123.0,442.0,191.0,6.0,11.12,2641.0,1077.86,2846628.26,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 11.1 days.
+102,Ventilator,V002,EquipMed Co.,2123.0,442.0,191.0,6.0,11.12,2641.0,1077.86,2846628.26,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 11.1 days.
+107,IV Drip,V003,HealthTools Ltd.,2410.0,338.0,158.0,12.0,15.25,0.0,15426.53,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.3 days.
+104,Gloves,V002,EquipMed Co.,2448.0,28.0,418.0,5.0,5.86,0.0,2729.08,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 5.9 days.
+107,Surgical Mask,V001,MedSupplies Inc.,3451.0,12.0,161.0,21.0,21.43,0.0,3328.44,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 21.4 days.
+100,Surgical Mask,V003,HealthTools Ltd.,1415.0,444.0,110.0,9.0,12.86,0.0,4817.11,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 12.9 days.
+103,IV Drip,V001,MedSupplies Inc.,3215.0,963.0,265.0,7.0,12.13,0.0,17123.76,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 12.1 days.
+105,Ventilator,V003,HealthTools Ltd.,1542.0,216.0,165.0,9.0,9.35,0.0,4.23,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.3 days.
+108,IV Drip,V003,HealthTools Ltd.,2194.0,72.0,74.0,29.0,29.65,0.0,11508.29,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 29.6 days.
+106,Ventilator,V003,HealthTools Ltd.,4286.0,985.0,119.0,21.0,36.02,0.0,11055.04,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 36.0 days.
+103,IV Drip,V002,EquipMed Co.,4094.0,578.0,174.0,15.0,23.53,0.0,14453.29,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 23.5 days.
+104,IV Drip,V002,EquipMed Co.,2458.0,725.0,64.0,25.0,38.41,0.0,5150.14,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 38.4 days.
+102,IV Drip,V003,HealthTools Ltd.,3299.0,103.0,382.0,5.0,8.64,0.0,1680.4,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 8.6 days.
+101,X-ray Machine,V001,MedSupplies Inc.,4406.0,424.0,175.0,13.0,25.18,0.0,14662.67,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 25.2 days.
+101,X-ray Machine,V001,MedSupplies Inc.,4739.0,962.0,204.0,23.0,23.23,0.0,2271.25,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 23.2 days.
+101,Gloves,V002,EquipMed Co.,3916.0,176.0,192.0,11.0,20.4,0.0,258.85,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 20.4 days.
+101,Surgical Mask,V003,HealthTools Ltd.,3931.0,562.0,363.0,6.0,10.83,0.0,17821.3,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 10.8 days.
+105,X-ray Machine,V001,MedSupplies Inc.,3189.0,617.0,104.0,27.0,30.66,0.0,17015.59,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 30.7 days.
+107,Surgical Mask,V001,MedSupplies Inc.,2895.0,815.0,83.0,23.0,34.88,0.0,17668.57,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.9 days.
+103,Gloves,V003,HealthTools Ltd.,4143.0,468.0,311.0,12.0,13.32,0.0,19614.11,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 13.3 days.
+104,IV Drip,V002,EquipMed Co.,4938.0,313.0,174.0,27.0,28.38,0.0,11508.87,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 28.4 days.
+108,IV Drip,V002,EquipMed Co.,4131.0,57.0,300.0,7.0,13.77,0.0,6011.83,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 13.8 days.
+105,Gloves,V002,EquipMed Co.,4500.0,157.0,391.0,10.0,11.51,0.0,3616.63,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 11.5 days.
+106,Gloves,V001,MedSupplies Inc.,4943.0,758.0,281.0,10.0,17.59,0.0,2548.05,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 17.6 days.
+103,IV Drip,V001,MedSupplies Inc.,2749.0,516.0,147.0,18.0,18.7,0.0,16020.37,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 18.7 days.
+106,Gloves,V001,MedSupplies Inc.,2078.0,680.0,292.0,5.0,7.12,0.0,5424.08,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.1 days.
+103,Gloves,V002,EquipMed Co.,1845.0,642.0,467.0,3.0,3.95,0.0,12926.59,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 4.0 days.
+106,Ventilator,V002,EquipMed Co.,3297.0,594.0,92.0,28.0,35.84,0.0,17928.89,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 35.8 days.
+106,Gloves,V002,EquipMed Co.,1979.0,361.0,214.0,9.0,9.25,0.0,3402.94,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.2 days.
+107,IV Drip,V003,HealthTools Ltd.,2410.0,338.0,158.0,12.0,15.25,0.0,15426.53,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 15.3 days.
+104,Gloves,V002,EquipMed Co.,2448.0,28.0,418.0,5.0,5.86,0.0,2729.08,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 5.9 days.
+107,Surgical Mask,V001,MedSupplies Inc.,3451.0,12.0,161.0,21.0,21.43,0.0,3328.44,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 21.4 days.
+100,Surgical Mask,V003,HealthTools Ltd.,1415.0,444.0,110.0,9.0,12.86,0.0,4817.11,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 12.9 days.
+103,IV Drip,V001,MedSupplies Inc.,3215.0,963.0,265.0,7.0,12.13,0.0,17123.76,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 12.1 days.
+105,Ventilator,V003,HealthTools Ltd.,1542.0,216.0,165.0,9.0,9.35,0.0,4.23,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.3 days.
+108,IV Drip,V003,HealthTools Ltd.,2194.0,72.0,74.0,29.0,29.65,0.0,11508.29,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 29.6 days.
+106,Ventilator,V003,HealthTools Ltd.,4286.0,985.0,119.0,21.0,36.02,0.0,11055.04,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 36.0 days.
+103,IV Drip,V002,EquipMed Co.,4094.0,578.0,174.0,15.0,23.53,0.0,14453.29,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 23.5 days.
+104,IV Drip,V002,EquipMed Co.,2458.0,725.0,64.0,25.0,38.41,0.0,5150.14,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 38.4 days.
+102,IV Drip,V003,HealthTools Ltd.,3299.0,103.0,382.0,5.0,8.64,0.0,1680.4,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 8.6 days.
+101,X-ray Machine,V001,MedSupplies Inc.,4406.0,424.0,175.0,13.0,25.18,0.0,14662.67,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 25.2 days.
+101,X-ray Machine,V001,MedSupplies Inc.,4739.0,962.0,204.0,23.0,23.23,0.0,2271.25,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 23.2 days.
+101,Gloves,V002,EquipMed Co.,3916.0,176.0,192.0,11.0,20.4,0.0,258.85,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 20.4 days.
+101,Surgical Mask,V003,HealthTools Ltd.,3931.0,562.0,363.0,6.0,10.83,0.0,17821.3,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 10.8 days.
+105,X-ray Machine,V001,MedSupplies Inc.,3189.0,617.0,104.0,27.0,30.66,0.0,17015.59,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 30.7 days.
+107,Surgical Mask,V001,MedSupplies Inc.,2895.0,815.0,83.0,23.0,34.88,0.0,17668.57,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 34.9 days.
+103,Gloves,V003,HealthTools Ltd.,4143.0,468.0,311.0,12.0,13.32,0.0,19614.11,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 13.3 days.
+104,IV Drip,V002,EquipMed Co.,4938.0,313.0,174.0,27.0,28.38,0.0,11508.87,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 28.4 days.
+108,IV Drip,V002,EquipMed Co.,4131.0,57.0,300.0,7.0,13.77,0.0,6011.83,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 13.8 days.
+105,Gloves,V002,EquipMed Co.,4500.0,157.0,391.0,10.0,11.51,0.0,3616.63,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 11.5 days.
+106,Gloves,V001,MedSupplies Inc.,4943.0,758.0,281.0,10.0,17.59,0.0,2548.05,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 17.6 days.
+103,IV Drip,V001,MedSupplies Inc.,2749.0,516.0,147.0,18.0,18.7,0.0,16020.37,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 18.7 days.
+106,Gloves,V001,MedSupplies Inc.,2078.0,680.0,292.0,5.0,7.12,0.0,5424.08,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 7.1 days.
+103,Gloves,V002,EquipMed Co.,1845.0,642.0,467.0,3.0,3.95,0.0,12926.59,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 4.0 days.
+106,Ventilator,V002,EquipMed Co.,3297.0,594.0,92.0,28.0,35.84,0.0,17928.89,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 35.8 days.
+106,Gloves,V002,EquipMed Co.,1979.0,361.0,214.0,9.0,9.25,0.0,3402.94,0.0,MEDIUM,MEDIUM,50,MONITOR_AND_PLAN,Projected stock-out in 9.2 days.
+101,Ventilator,V001,MedSupplies Inc.,1434.0,585.0,4.0,21.0,358.5,4558.0,18268.7,83268734.6,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,Ventilator,V001,MedSupplies Inc.,1434.0,585.0,4.0,21.0,358.5,4558.0,18268.7,83268734.6,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,IV Drip,V002,EquipMed Co.,1024.0,39.0,470.0,1.0,2.18,3554.0,19648.94,69832332.76,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,IV Drip,V002,EquipMed Co.,1024.0,39.0,470.0,1.0,2.18,3554.0,19648.94,69832332.76,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Surgical Mask,V001,MedSupplies Inc.,1556.0,221.0,257.0,2.0,6.05,3709.0,14776.76,54807002.84,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Surgical Mask,V001,MedSupplies Inc.,1556.0,221.0,257.0,2.0,6.05,3709.0,14776.76,54807002.84,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V001,MedSupplies Inc.,2413.0,301.0,59.0,19.0,40.9,2443.0,19314.53,47185396.79,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V001,MedSupplies Inc.,2413.0,301.0,59.0,19.0,40.9,2443.0,19314.53,47185396.79,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,X-ray Machine,V001,MedSupplies Inc.,2754.0,203.0,316.0,3.0,8.72,2235.0,15785.82,35281307.7,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,X-ray Machine,V001,MedSupplies Inc.,2754.0,203.0,316.0,3.0,8.72,2235.0,15785.82,35281307.7,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V002,EquipMed Co.,2352.0,584.0,12.0,26.0,196.0,3263.0,10496.26,34249296.38,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V002,EquipMed Co.,2352.0,584.0,12.0,26.0,196.0,3263.0,10496.26,34249296.38,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Surgical Mask,V003,HealthTools Ltd.,934.0,436.0,267.0,1.0,3.5,1893.0,17854.28,33798152.04,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Surgical Mask,V003,HealthTools Ltd.,934.0,436.0,267.0,1.0,3.5,1893.0,17854.28,33798152.04,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Surgical Mask,V001,MedSupplies Inc.,1276.0,90.0,172.0,1.0,7.42,3891.0,8383.42,32619887.22,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Surgical Mask,V001,MedSupplies Inc.,1276.0,90.0,172.0,1.0,7.42,3891.0,8383.42,32619887.22,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,IV Drip,V002,EquipMed Co.,4192.0,995.0,237.0,8.0,17.69,1719.0,18374.44,31585662.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,IV Drip,V002,EquipMed Co.,4192.0,995.0,237.0,8.0,17.69,1719.0,18374.44,31585662.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Surgical Mask,V002,EquipMed Co.,1588.0,675.0,16.0,26.0,99.25,2374.0,11371.41,26995727.34,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Surgical Mask,V002,EquipMed Co.,1588.0,675.0,16.0,26.0,99.25,2374.0,11371.41,26995727.34,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Surgical Mask,V003,HealthTools Ltd.,1196.0,367.0,2.0,26.0,598.0,2972.0,8853.64,26313018.08,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Surgical Mask,V003,HealthTools Ltd.,1196.0,367.0,2.0,26.0,598.0,2972.0,8853.64,26313018.08,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V003,HealthTools Ltd.,3383.0,85.0,65.0,4.0,52.05,1336.0,18648.9,24914930.4,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V003,HealthTools Ltd.,3383.0,85.0,65.0,4.0,52.05,1336.0,18648.9,24914930.4,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,IV Drip,V001,MedSupplies Inc.,2572.0,172.0,104.0,6.0,24.73,2019.0,12145.71,24522188.49,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,IV Drip,V001,MedSupplies Inc.,2572.0,172.0,104.0,6.0,24.73,2019.0,12145.71,24522188.49,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V002,EquipMed Co.,1313.0,448.0,216.0,2.0,6.08,1931.0,11734.67,22659647.77,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V002,EquipMed Co.,1313.0,448.0,216.0,2.0,6.08,1931.0,11734.67,22659647.77,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V001,MedSupplies Inc.,3446.0,111.0,133.0,6.0,25.91,2186.0,9792.19,21405727.34,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V001,MedSupplies Inc.,3446.0,111.0,133.0,6.0,25.91,2186.0,9792.19,21405727.34,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Ventilator,V002,EquipMed Co.,2163.0,590.0,41.0,11.0,52.76,1563.0,12942.68,20229408.84,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Ventilator,V002,EquipMed Co.,2163.0,590.0,41.0,11.0,52.76,1563.0,12942.68,20229408.84,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Surgical Mask,V002,EquipMed Co.,2206.0,315.0,392.0,1.0,5.63,1694.0,11709.1,19835215.4,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Surgical Mask,V002,EquipMed Co.,2206.0,315.0,392.0,1.0,5.63,1694.0,11709.1,19835215.4,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V002,EquipMed Co.,1589.0,382.0,361.0,2.0,4.4,2649.0,7367.76,19517196.24,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V002,EquipMed Co.,1589.0,382.0,361.0,2.0,4.4,2649.0,7367.76,19517196.24,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,IV Drip,V002,EquipMed Co.,4485.0,478.0,484.0,2.0,9.27,995.0,19401.95,19304940.25,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,IV Drip,V002,EquipMed Co.,4485.0,478.0,484.0,2.0,9.27,995.0,19401.95,19304940.25,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V002,EquipMed Co.,3359.0,900.0,35.0,27.0,95.97,2039.0,9363.66,19092502.74,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V002,EquipMed Co.,3359.0,900.0,35.0,27.0,95.97,2039.0,9363.66,19092502.74,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Gloves,V003,HealthTools Ltd.,4377.0,595.0,344.0,5.0,12.72,919.0,19127.81,17578457.39,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Gloves,V003,HealthTools Ltd.,4377.0,595.0,344.0,5.0,12.72,919.0,19127.81,17578457.39,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V002,EquipMed Co.,4298.0,159.0,362.0,2.0,11.87,1469.0,11755.83,17269314.27,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V002,EquipMed Co.,4298.0,159.0,362.0,2.0,11.87,1469.0,11755.83,17269314.27,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Ventilator,V001,MedSupplies Inc.,2902.0,385.0,27.0,5.0,107.48,2417.0,7091.41,17139937.97,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Ventilator,V001,MedSupplies Inc.,2902.0,385.0,27.0,5.0,107.48,2417.0,7091.41,17139937.97,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,IV Drip,V002,EquipMed Co.,3754.0,23.0,68.0,21.0,55.21,1040.0,16241.58,16891243.2,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,IV Drip,V002,EquipMed Co.,3754.0,23.0,68.0,21.0,55.21,1040.0,16241.58,16891243.2,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Surgical Mask,V002,EquipMed Co.,3324.0,338.0,174.0,6.0,19.1,2279.0,7207.0,16424753.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Surgical Mask,V002,EquipMed Co.,3324.0,338.0,174.0,6.0,19.1,2279.0,7207.0,16424753.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Ventilator,V002,EquipMed Co.,2178.0,51.0,54.0,15.0,40.33,3115.0,5194.7,16181490.5,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Ventilator,V002,EquipMed Co.,2178.0,51.0,54.0,15.0,40.33,3115.0,5194.7,16181490.5,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,IV Drip,V002,EquipMed Co.,2842.0,703.0,82.0,7.0,34.66,1989.0,7968.93,15850201.77,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,IV Drip,V002,EquipMed Co.,2842.0,703.0,82.0,7.0,34.66,1989.0,7968.93,15850201.77,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V003,HealthTools Ltd.,4249.0,713.0,252.0,5.0,16.86,784.0,19281.88,15116993.92,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V003,HealthTools Ltd.,4249.0,713.0,252.0,5.0,16.86,784.0,19281.88,15116993.92,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V001,MedSupplies Inc.,2037.0,10.0,42.0,11.0,48.5,762.0,18018.37,13729997.94,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V001,MedSupplies Inc.,2037.0,10.0,42.0,11.0,48.5,762.0,18018.37,13729997.94,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Surgical Mask,V003,HealthTools Ltd.,3949.0,417.0,416.0,3.0,9.49,1004.0,13084.14,13136476.56,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Surgical Mask,V003,HealthTools Ltd.,3949.0,417.0,416.0,3.0,9.49,1004.0,13084.14,13136476.56,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V002,EquipMed Co.,1766.0,723.0,24.0,9.0,73.58,1559.0,7703.61,12009927.99,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V002,EquipMed Co.,1766.0,723.0,24.0,9.0,73.58,1559.0,7703.61,12009927.99,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V002,EquipMed Co.,2100.0,525.0,31.0,2.0,67.74,2544.0,4426.77,11261702.88,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V002,EquipMed Co.,2100.0,525.0,31.0,2.0,67.74,2544.0,4426.77,11261702.88,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V001,MedSupplies Inc.,2480.0,655.0,201.0,3.0,12.34,1154.0,9495.74,10958083.96,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V001,MedSupplies Inc.,2480.0,655.0,201.0,3.0,12.34,1154.0,9495.74,10958083.96,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Surgical Mask,V002,EquipMed Co.,3020.0,144.0,168.0,8.0,17.98,1953.0,5559.22,10857156.66,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Surgical Mask,V002,EquipMed Co.,3020.0,144.0,168.0,8.0,17.98,1953.0,5559.22,10857156.66,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,X-ray Machine,V002,EquipMed Co.,2348.0,935.0,118.0,6.0,19.9,1855.0,5629.09,10441961.95,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,X-ray Machine,V002,EquipMed Co.,2348.0,935.0,118.0,6.0,19.9,1855.0,5629.09,10441961.95,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V003,HealthTools Ltd.,3745.0,167.0,51.0,26.0,73.43,1448.0,7093.88,10271938.24,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V003,HealthTools Ltd.,3745.0,167.0,51.0,26.0,73.43,1448.0,7093.88,10271938.24,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Ventilator,V003,HealthTools Ltd.,2706.0,578.0,158.0,6.0,17.13,1133.0,8243.92,9340361.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Ventilator,V003,HealthTools Ltd.,2706.0,578.0,158.0,6.0,17.13,1133.0,8243.92,9340361.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,X-ray Machine,V003,HealthTools Ltd.,3266.0,904.0,254.0,6.0,12.86,834.0,10845.07,9044788.38,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,X-ray Machine,V003,HealthTools Ltd.,3266.0,904.0,254.0,6.0,12.86,834.0,10845.07,9044788.38,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Gloves,V001,MedSupplies Inc.,1891.0,465.0,42.0,18.0,45.02,1981.0,4455.81,8826959.61,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Gloves,V001,MedSupplies Inc.,1891.0,465.0,42.0,18.0,45.02,1981.0,4455.81,8826959.61,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V003,HealthTools Ltd.,1638.0,355.0,8.0,25.0,204.75,3610.0,2422.81,8746344.1,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V003,HealthTools Ltd.,1638.0,355.0,8.0,25.0,204.75,3610.0,2422.81,8746344.1,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,X-ray Machine,V002,EquipMed Co.,2410.0,167.0,176.0,6.0,13.69,1223.0,6974.49,8529801.27,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,X-ray Machine,V002,EquipMed Co.,2410.0,167.0,176.0,6.0,13.69,1223.0,6974.49,8529801.27,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V001,MedSupplies Inc.,3410.0,514.0,463.0,1.0,7.37,499.0,16406.52,8186853.48,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V001,MedSupplies Inc.,3410.0,514.0,463.0,1.0,7.37,499.0,16406.52,8186853.48,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Gloves,V003,HealthTools Ltd.,3649.0,869.0,58.0,19.0,62.91,2146.0,3717.66,7978098.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Gloves,V003,HealthTools Ltd.,3649.0,869.0,58.0,19.0,62.91,2146.0,3717.66,7978098.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V001,MedSupplies Inc.,4612.0,200.0,42.0,1.0,109.81,472.0,13388.33,6319291.76,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V001,MedSupplies Inc.,4612.0,200.0,42.0,1.0,109.81,472.0,13388.33,6319291.76,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,2487.0,656.0,55.0,12.0,45.22,1069.0,5832.29,6234718.01,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,2487.0,656.0,55.0,12.0,45.22,1069.0,5832.29,6234718.01,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,X-ray Machine,V003,HealthTools Ltd.,3907.0,303.0,203.0,5.0,19.25,1840.0,3371.35,6203284.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,X-ray Machine,V003,HealthTools Ltd.,3907.0,303.0,203.0,5.0,19.25,1840.0,3371.35,6203284.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Surgical Mask,V001,MedSupplies Inc.,1293.0,809.0,69.0,6.0,18.74,496.0,10465.55,5190912.8,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Surgical Mask,V001,MedSupplies Inc.,1293.0,809.0,69.0,6.0,18.74,496.0,10465.55,5190912.8,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Surgical Mask,V002,EquipMed Co.,3765.0,560.0,459.0,2.0,8.2,885.0,5827.25,5157116.25,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Surgical Mask,V002,EquipMed Co.,3765.0,560.0,459.0,2.0,8.2,885.0,5827.25,5157116.25,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Surgical Mask,V003,HealthTools Ltd.,4092.0,542.0,23.0,27.0,177.91,585.0,8103.52,4740559.2,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Surgical Mask,V003,HealthTools Ltd.,4092.0,542.0,23.0,27.0,177.91,585.0,8103.52,4740559.2,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,X-ray Machine,V001,MedSupplies Inc.,3298.0,231.0,244.0,2.0,13.52,438.0,10669.37,4673184.06,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,X-ray Machine,V001,MedSupplies Inc.,3298.0,231.0,244.0,2.0,13.52,438.0,10669.37,4673184.06,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Surgical Mask,V003,HealthTools Ltd.,2485.0,823.0,32.0,10.0,77.66,447.0,9401.31,4202385.57,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Surgical Mask,V003,HealthTools Ltd.,2485.0,823.0,32.0,10.0,77.66,447.0,9401.31,4202385.57,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,IV Drip,V003,HealthTools Ltd.,3930.0,974.0,130.0,13.0,30.23,1316.0,2974.71,3914718.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,IV Drip,V003,HealthTools Ltd.,3930.0,974.0,130.0,13.0,30.23,1316.0,2974.71,3914718.36,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V001,MedSupplies Inc.,1562.0,169.0,6.0,24.0,260.33,700.0,5321.71,3725197.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V001,MedSupplies Inc.,1562.0,169.0,6.0,24.0,260.33,700.0,5321.71,3725197.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Gloves,V001,MedSupplies Inc.,4330.0,913.0,109.0,16.0,39.72,589.0,6294.82,3707648.98,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Gloves,V001,MedSupplies Inc.,4330.0,913.0,109.0,16.0,39.72,589.0,6294.82,3707648.98,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V001,MedSupplies Inc.,790.0,751.0,16.0,20.0,49.38,1011.0,3441.26,3479113.86,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V001,MedSupplies Inc.,790.0,751.0,16.0,20.0,49.38,1011.0,3441.26,3479113.86,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Ventilator,V003,HealthTools Ltd.,2513.0,41.0,86.0,4.0,29.22,441.0,5750.42,2535935.22,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Ventilator,V003,HealthTools Ltd.,2513.0,41.0,86.0,4.0,29.22,441.0,5750.42,2535935.22,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,Gloves,V002,EquipMed Co.,3801.0,613.0,424.0,2.0,8.96,484.0,3592.18,1738615.12,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,Gloves,V002,EquipMed Co.,3801.0,613.0,424.0,2.0,8.96,484.0,3592.18,1738615.12,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V003,HealthTools Ltd.,2445.0,213.0,72.0,6.0,33.96,516.0,2860.0,1475760.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V003,HealthTools Ltd.,2445.0,213.0,72.0,6.0,33.96,516.0,2860.0,1475760.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Surgical Mask,V001,MedSupplies Inc.,4594.0,462.0,25.0,17.0,183.76,262.0,5621.72,1472890.64,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Surgical Mask,V001,MedSupplies Inc.,4594.0,462.0,25.0,17.0,183.76,262.0,5621.72,1472890.64,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,IV Drip,V001,MedSupplies Inc.,4643.0,271.0,37.0,5.0,125.49,698.0,1335.6,932248.8,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,IV Drip,V001,MedSupplies Inc.,4643.0,271.0,37.0,5.0,125.49,698.0,1335.6,932248.8,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V003,HealthTools Ltd.,3716.0,370.0,179.0,4.0,20.76,1033.0,587.41,606794.53,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,X-ray Machine,V003,HealthTools Ltd.,3716.0,370.0,179.0,4.0,20.76,1033.0,587.41,606794.53,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V001,MedSupplies Inc.,2815.0,296.0,40.0,20.0,70.38,915.0,459.81,420726.15,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V001,MedSupplies Inc.,2815.0,296.0,40.0,20.0,70.38,915.0,459.81,420726.15,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,1934.0,277.0,29.0,2.0,66.69,28.0,11180.05,313041.4,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,1934.0,277.0,29.0,2.0,66.69,28.0,11180.05,313041.4,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,X-ray Machine,V001,MedSupplies Inc.,3969.0,720.0,69.0,16.0,57.52,81.0,1435.5,116275.5,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,X-ray Machine,V001,MedSupplies Inc.,3969.0,720.0,69.0,16.0,57.52,81.0,1435.5,116275.5,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V003,HealthTools Ltd.,1587.0,589.0,35.0,16.0,45.34,51.0,596.28,30410.28,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V003,HealthTools Ltd.,1587.0,589.0,35.0,16.0,45.34,51.0,596.28,30410.28,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Surgical Mask,V003,HealthTools Ltd.,4510.0,207.0,254.0,8.0,17.76,0.0,55.66,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,IV Drip,V003,HealthTools Ltd.,4317.0,667.0,59.0,18.0,73.17,0.0,16184.33,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,X-ray Machine,V001,MedSupplies Inc.,4289.0,21.0,9.0,21.0,476.56,0.0,9547.31,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,X-ray Machine,V001,MedSupplies Inc.,4906.0,966.0,50.0,22.0,98.12,0.0,14336.04,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,2366.0,513.0,40.0,6.0,59.15,0.0,19355.19,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V003,HealthTools Ltd.,2186.0,325.0,130.0,8.0,16.82,0.0,7419.78,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Ventilator,V003,HealthTools Ltd.,4872.0,805.0,103.0,15.0,47.3,0.0,16529.65,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,IV Drip,V001,MedSupplies Inc.,4625.0,82.0,294.0,4.0,15.73,0.0,2946.37,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,IV Drip,V001,MedSupplies Inc.,3817.0,560.0,161.0,4.0,23.71,0.0,19091.92,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Ventilator,V002,EquipMed Co.,4101.0,597.0,425.0,4.0,9.65,0.0,8240.78,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,IV Drip,V001,MedSupplies Inc.,4129.0,782.0,12.0,8.0,344.08,0.0,19569.2,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,1196.0,100.0,55.0,8.0,21.75,0.0,12615.11,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Gloves,V003,HealthTools Ltd.,4870.0,274.0,39.0,6.0,124.87,0.0,13098.78,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V003,HealthTools Ltd.,4864.0,771.0,87.0,9.0,55.91,0.0,18329.75,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Gloves,V003,HealthTools Ltd.,3961.0,130.0,125.0,8.0,31.69,0.0,3067.83,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V001,MedSupplies Inc.,2426.0,75.0,325.0,2.0,7.46,0.0,17810.15,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Ventilator,V003,HealthTools Ltd.,1851.0,941.0,203.0,2.0,9.12,0.0,19249.94,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Ventilator,V001,MedSupplies Inc.,4201.0,734.0,76.0,20.0,55.28,0.0,13394.06,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Surgical Mask,V001,MedSupplies Inc.,3459.0,600.0,176.0,1.0,19.65,0.0,14664.65,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,1615.0,883.0,49.0,16.0,32.96,0.0,19188.41,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Ventilator,V002,EquipMed Co.,2460.0,36.0,389.0,1.0,6.32,0.0,7687.38,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V003,HealthTools Ltd.,4181.0,230.0,176.0,1.0,23.76,0.0,11554.34,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Surgical Mask,V003,HealthTools Ltd.,4670.0,718.0,203.0,6.0,23.0,0.0,14710.54,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,Surgical Mask,V001,MedSupplies Inc.,2474.0,16.0,41.0,16.0,60.34,0.0,1504.53,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,IV Drip,V003,HealthTools Ltd.,4016.0,815.0,45.0,24.0,89.24,0.0,6855.76,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V002,EquipMed Co.,2851.0,449.0,223.0,6.0,12.78,0.0,15152.04,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V002,EquipMed Co.,4140.0,60.0,9.0,7.0,460.0,0.0,14127.56,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V002,EquipMed Co.,3784.0,94.0,327.0,2.0,11.57,0.0,19161.21,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,3758.0,100.0,20.0,26.0,187.9,0.0,666.95,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V001,MedSupplies Inc.,2727.0,173.0,225.0,2.0,12.12,0.0,9095.5,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,IV Drip,V001,MedSupplies Inc.,3624.0,92.0,162.0,1.0,22.37,0.0,10931.03,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Gloves,V001,MedSupplies Inc.,3801.0,550.0,52.0,18.0,73.1,0.0,19913.41,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V003,HealthTools Ltd.,2519.0,77.0,354.0,2.0,7.12,0.0,10926.81,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,4099.0,770.0,345.0,1.0,11.88,0.0,2919.89,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Ventilator,V001,MedSupplies Inc.,4740.0,438.0,132.0,3.0,35.91,0.0,3637.87,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Surgical Mask,V003,HealthTools Ltd.,4343.0,78.0,175.0,9.0,24.82,0.0,17748.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,IV Drip,V001,MedSupplies Inc.,4208.0,947.0,70.0,18.0,60.11,0.0,2715.95,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,X-ray Machine,V002,EquipMed Co.,4885.0,360.0,136.0,7.0,35.92,0.0,16035.71,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V001,MedSupplies Inc.,4312.0,620.0,111.0,7.0,38.85,0.0,11917.36,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V003,HealthTools Ltd.,3859.0,538.0,296.0,2.0,13.04,0.0,2194.35,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Gloves,V002,EquipMed Co.,3951.0,271.0,36.0,15.0,109.75,0.0,13984.45,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V003,HealthTools Ltd.,865.0,757.0,4.0,19.0,216.25,0.0,15373.96,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V003,HealthTools Ltd.,860.0,400.0,2.0,11.0,430.0,0.0,18760.33,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Surgical Mask,V002,EquipMed Co.,3607.0,14.0,93.0,1.0,38.78,0.0,18951.23,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V003,HealthTools Ltd.,3459.0,966.0,450.0,1.0,7.69,0.0,13291.98,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V003,HealthTools Ltd.,2921.0,649.0,298.0,3.0,9.8,0.0,7171.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Gloves,V001,MedSupplies Inc.,4621.0,875.0,208.0,9.0,22.22,0.0,15726.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V001,MedSupplies Inc.,4519.0,438.0,192.0,4.0,23.54,0.0,9696.92,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V001,MedSupplies Inc.,3849.0,117.0,78.0,11.0,49.35,0.0,15235.58,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Ventilator,V001,MedSupplies Inc.,2633.0,154.0,162.0,5.0,16.25,0.0,18491.22,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V001,MedSupplies Inc.,4587.0,536.0,197.0,7.0,23.28,0.0,158.76,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,2678.0,686.0,47.0,24.0,56.98,0.0,13273.33,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,Ventilator,V003,HealthTools Ltd.,4488.0,822.0,486.0,2.0,9.23,0.0,6264.8,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,IV Drip,V002,EquipMed Co.,2256.0,788.0,41.0,26.0,55.02,0.0,3457.98,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,IV Drip,V001,MedSupplies Inc.,1451.0,474.0,18.0,3.0,80.61,0.0,11903.24,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Gloves,V003,HealthTools Ltd.,3625.0,950.0,328.0,3.0,11.05,0.0,15963.03,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Ventilator,V003,HealthTools Ltd.,3753.0,520.0,52.0,5.0,72.17,0.0,19161.84,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V002,EquipMed Co.,2718.0,612.0,92.0,4.0,29.54,0.0,3046.47,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Ventilator,V001,MedSupplies Inc.,3055.0,741.0,8.0,28.0,381.88,0.0,12691.4,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,IV Drip,V002,EquipMed Co.,4209.0,827.0,449.0,3.0,9.37,0.0,8664.16,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,IV Drip,V003,HealthTools Ltd.,1687.0,35.0,35.0,12.0,48.2,0.0,13149.87,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Surgical Mask,V003,HealthTools Ltd.,1310.0,775.0,132.0,4.0,9.92,0.0,9704.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V002,EquipMed Co.,4072.0,776.0,257.0,6.0,15.84,0.0,15934.2,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Surgical Mask,V003,HealthTools Ltd.,4510.0,207.0,254.0,8.0,17.76,0.0,55.66,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,IV Drip,V003,HealthTools Ltd.,4317.0,667.0,59.0,18.0,73.17,0.0,16184.33,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,X-ray Machine,V001,MedSupplies Inc.,4289.0,21.0,9.0,21.0,476.56,0.0,9547.31,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,X-ray Machine,V001,MedSupplies Inc.,4906.0,966.0,50.0,22.0,98.12,0.0,14336.04,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,2366.0,513.0,40.0,6.0,59.15,0.0,19355.19,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V003,HealthTools Ltd.,2186.0,325.0,130.0,8.0,16.82,0.0,7419.78,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Ventilator,V003,HealthTools Ltd.,4872.0,805.0,103.0,15.0,47.3,0.0,16529.65,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,IV Drip,V001,MedSupplies Inc.,4625.0,82.0,294.0,4.0,15.73,0.0,2946.37,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,IV Drip,V001,MedSupplies Inc.,3817.0,560.0,161.0,4.0,23.71,0.0,19091.92,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Ventilator,V002,EquipMed Co.,4101.0,597.0,425.0,4.0,9.65,0.0,8240.78,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,IV Drip,V001,MedSupplies Inc.,4129.0,782.0,12.0,8.0,344.08,0.0,19569.2,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,1196.0,100.0,55.0,8.0,21.75,0.0,12615.11,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Gloves,V003,HealthTools Ltd.,4870.0,274.0,39.0,6.0,124.87,0.0,13098.78,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V003,HealthTools Ltd.,4864.0,771.0,87.0,9.0,55.91,0.0,18329.75,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Gloves,V003,HealthTools Ltd.,3961.0,130.0,125.0,8.0,31.69,0.0,3067.83,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V001,MedSupplies Inc.,2426.0,75.0,325.0,2.0,7.46,0.0,17810.15,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Ventilator,V003,HealthTools Ltd.,1851.0,941.0,203.0,2.0,9.12,0.0,19249.94,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Ventilator,V001,MedSupplies Inc.,4201.0,734.0,76.0,20.0,55.28,0.0,13394.06,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Surgical Mask,V001,MedSupplies Inc.,3459.0,600.0,176.0,1.0,19.65,0.0,14664.65,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,1615.0,883.0,49.0,16.0,32.96,0.0,19188.41,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Ventilator,V002,EquipMed Co.,2460.0,36.0,389.0,1.0,6.32,0.0,7687.38,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V003,HealthTools Ltd.,4181.0,230.0,176.0,1.0,23.76,0.0,11554.34,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Surgical Mask,V003,HealthTools Ltd.,4670.0,718.0,203.0,6.0,23.0,0.0,14710.54,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,Surgical Mask,V001,MedSupplies Inc.,2474.0,16.0,41.0,16.0,60.34,0.0,1504.53,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,IV Drip,V003,HealthTools Ltd.,4016.0,815.0,45.0,24.0,89.24,0.0,6855.76,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V002,EquipMed Co.,2851.0,449.0,223.0,6.0,12.78,0.0,15152.04,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V002,EquipMed Co.,4140.0,60.0,9.0,7.0,460.0,0.0,14127.56,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+102,Ventilator,V002,EquipMed Co.,3784.0,94.0,327.0,2.0,11.57,0.0,19161.21,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,3758.0,100.0,20.0,26.0,187.9,0.0,666.95,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V001,MedSupplies Inc.,2727.0,173.0,225.0,2.0,12.12,0.0,9095.5,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,IV Drip,V001,MedSupplies Inc.,3624.0,92.0,162.0,1.0,22.37,0.0,10931.03,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Gloves,V001,MedSupplies Inc.,3801.0,550.0,52.0,18.0,73.1,0.0,19913.41,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,X-ray Machine,V003,HealthTools Ltd.,2519.0,77.0,354.0,2.0,7.12,0.0,10926.81,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V001,MedSupplies Inc.,4099.0,770.0,345.0,1.0,11.88,0.0,2919.89,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,Ventilator,V001,MedSupplies Inc.,4740.0,438.0,132.0,3.0,35.91,0.0,3637.87,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Surgical Mask,V003,HealthTools Ltd.,4343.0,78.0,175.0,9.0,24.82,0.0,17748.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,IV Drip,V001,MedSupplies Inc.,4208.0,947.0,70.0,18.0,60.11,0.0,2715.95,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,X-ray Machine,V002,EquipMed Co.,4885.0,360.0,136.0,7.0,35.92,0.0,16035.71,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V001,MedSupplies Inc.,4312.0,620.0,111.0,7.0,38.85,0.0,11917.36,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Gloves,V003,HealthTools Ltd.,3859.0,538.0,296.0,2.0,13.04,0.0,2194.35,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,Gloves,V002,EquipMed Co.,3951.0,271.0,36.0,15.0,109.75,0.0,13984.45,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V003,HealthTools Ltd.,865.0,757.0,4.0,19.0,216.25,0.0,15373.96,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V003,HealthTools Ltd.,860.0,400.0,2.0,11.0,430.0,0.0,18760.33,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Surgical Mask,V002,EquipMed Co.,3607.0,14.0,93.0,1.0,38.78,0.0,18951.23,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+106,X-ray Machine,V003,HealthTools Ltd.,3459.0,966.0,450.0,1.0,7.69,0.0,13291.98,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+107,IV Drip,V003,HealthTools Ltd.,2921.0,649.0,298.0,3.0,9.8,0.0,7171.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Gloves,V001,MedSupplies Inc.,4621.0,875.0,208.0,9.0,22.22,0.0,15726.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V001,MedSupplies Inc.,4519.0,438.0,192.0,4.0,23.54,0.0,9696.92,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,X-ray Machine,V001,MedSupplies Inc.,3849.0,117.0,78.0,11.0,49.35,0.0,15235.58,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,Ventilator,V001,MedSupplies Inc.,2633.0,154.0,162.0,5.0,16.25,0.0,18491.22,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,Gloves,V001,MedSupplies Inc.,4587.0,536.0,197.0,7.0,23.28,0.0,158.76,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V001,MedSupplies Inc.,2678.0,686.0,47.0,24.0,56.98,0.0,13273.33,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,Ventilator,V003,HealthTools Ltd.,4488.0,822.0,486.0,2.0,9.23,0.0,6264.8,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,IV Drip,V002,EquipMed Co.,2256.0,788.0,41.0,26.0,55.02,0.0,3457.98,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+103,IV Drip,V001,MedSupplies Inc.,1451.0,474.0,18.0,3.0,80.61,0.0,11903.24,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Gloves,V003,HealthTools Ltd.,3625.0,950.0,328.0,3.0,11.05,0.0,15963.03,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+105,Ventilator,V003,HealthTools Ltd.,3753.0,520.0,52.0,5.0,72.17,0.0,19161.84,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+100,Ventilator,V002,EquipMed Co.,2718.0,612.0,92.0,4.0,29.54,0.0,3046.47,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Ventilator,V001,MedSupplies Inc.,3055.0,741.0,8.0,28.0,381.88,0.0,12691.4,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+104,IV Drip,V002,EquipMed Co.,4209.0,827.0,449.0,3.0,9.37,0.0,8664.16,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+101,IV Drip,V003,HealthTools Ltd.,1687.0,35.0,35.0,12.0,48.2,0.0,13149.87,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+109,Surgical Mask,V003,HealthTools Ltd.,1310.0,775.0,132.0,4.0,9.92,0.0,9704.49,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
+108,Ventilator,V002,EquipMed Co.,4072.0,776.0,257.0,6.0,15.84,0.0,15934.2,0.0,LOW,LOW,20,NORMAL_MONITORING,Current inventory appears sufficient.
