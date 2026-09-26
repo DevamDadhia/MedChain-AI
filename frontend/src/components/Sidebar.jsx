@@ -11,14 +11,14 @@ import {
   Server,
   Settings,
   ChevronRight,
-  ChevronDown,
-  Activity,
-  PlusSquare,
+  Plus,
+  ArrowRight,
 } from "lucide-react";
+import sidebarPromoImg from "../assets/sidebar_promo.jpg";
 
 export const SIDEBAR_ITEMS = [
   { id: "dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { id: "inventory", label: "Inventory", icon: Boxes, hasSubmenu: true },
+  { id: "inventory", label: "Inventory", icon: Boxes },
   { id: "predictions", label: "Predictions", icon: Cpu },
   { id: "ai", label: "AI Intelligence", icon: Sparkles },
   { id: "recommendations", label: "Recommendations", icon: BrainCircuit },
@@ -34,14 +34,12 @@ export function Sidebar({ activeTab, onSelectTab }) {
     <aside className="sidebar">
       {/* Brand Header */}
       <div className="sidebar-brand" onClick={() => onSelectTab("dashboard")}>
-        <div className="sidebar-logo-wrap">
-          <div className="sidebar-logo-icon">
-            <PlusSquare size={26} className="logo-cross" />
-          </div>
+        <div className="sidebar-brand-badge">
+          <Plus size={22} strokeWidth={3.5} className="brand-cross-icon" />
         </div>
         <div className="sidebar-brand-text">
-          <h2 className="sidebar-title">HEALTHGRID</h2>
-          <span className="sidebar-subtitle">Hospital Operations Platform</span>
+          <h2 className="sidebar-brand-title">HEALTHGRID</h2>
+          <span className="sidebar-brand-sub">Hospital Operations Platform</span>
         </div>
       </div>
 
@@ -60,9 +58,6 @@ export function Sidebar({ activeTab, onSelectTab }) {
                 >
                   <Icon size={19} className="sidebar-icon" />
                   <span className="sidebar-label">{item.label}</span>
-                  {item.hasSubmenu && (
-                    <ChevronRight size={15} className="sidebar-chevron" />
-                  )}
                 </button>
               </li>
             );
@@ -70,17 +65,34 @@ export function Sidebar({ activeTab, onSelectTab }) {
         </ul>
       </nav>
 
+      {/* Sidebar Mission / Promo Card */}
+      <div className="sidebar-promo-container">
+        <div
+          className="sidebar-promo-card"
+          style={{ backgroundImage: `url(${sidebarPromoImg})` }}
+        >
+          <div className="promo-overlay">
+            <p className="promo-text">
+              Better Resource Allocation for Healthier Communities
+            </p>
+            <div className="promo-arrow-circle">
+              <ArrowRight size={14} className="promo-arrow-icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom User Profile */}
       <div className="sidebar-footer">
-        <div className="user-profile-card">
-          <div className="user-avatar">
+        <div className="user-profile-row">
+          <div className="user-avatar-circle">
             <span>AD</span>
           </div>
-          <div className="user-info">
-            <strong className="user-name">Admin User</strong>
-            <span className="user-role">Super Administrator</span>
+          <div className="user-profile-details">
+            <strong className="user-profile-name">Admin User</strong>
+            <span className="user-profile-role">Super Administrator</span>
           </div>
-          <ChevronDown size={16} className="user-chevron" />
+          <ChevronRight size={17} className="user-chevron-icon" />
         </div>
       </div>
     </aside>

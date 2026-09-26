@@ -1,21 +1,120 @@
 import React, { useState } from "react";
 import {
-  Boxes,
   AlertTriangle,
   Shield,
   BedDouble,
   Sparkles,
+  BarChart2,
+  TrendingUp,
   ChevronDown,
-  ShoppingCart,
-  Users,
-  ClipboardList,
-  CheckCircle2,
+  ChevronRight,
   ArrowRight,
+  RefreshCw,
 } from "lucide-react";
+import KPICard, { IsometricBoxesIcon } from "../components/KPICard";
 import DonutChart from "../components/DonutChart";
 import TrendLineChart from "../components/TrendLineChart";
 import LoadingSkeleton from "../components/LoadingSkeleton";
 import ErrorBanner from "../components/ErrorBanner";
+import hospitalBannerImg from "../assets/hospital_banner.jpg";
+
+/**
+ * Mini sparkline wave for table rows
+ */
+function TableSparkline({ trend }) {
+  const isUp = trend.startsWith("+");
+  const color = isUp ? "#ef4444" : "#10b981";
+
+  // Smooth wave path
+  const path = isUp
+    ? "M 2 13 C 12 15, 20 8, 28 11 C 36 14, 42 3, 48 5"
+    : "M 2 4 C 12 2, 20 10, 28 7 C 36 5, 42 14, 48 13";
+
+  return (
+    <div className="table-spark-container">
+      <svg
+        width="46"
+        height="18"
+        viewBox="0 0 50 16"
+        className="table-sparkline-svg"
+      >
+        <path
+          d={path}
+          fill="none"
+          stroke={color}
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className={`table-trend-badge ${
+          isUp ? "trend-badge-red" : "trend-badge-green"
+        }`}
+      >
+        {trend}
+      </span>
+    </div>
+  );
+}
+
+/**
+ * Robot Mascot for AI Executive Summary matching the screenshot
+ */
+function AIMascotIcon() {
+  return (
+    <div className="ai-mascot-wrapper">
+      <svg
+        width="76"
+        height="76"
+        viewBox="0 0 80 80"
+        fill="none"
+        className="ai-mascot-svg"
+      >
+        {/* Soft background glow */}
+        <circle cx="40" cy="42" r="32" fill="#f3e8ff" opacity="0.6" />
+
+        {/* Ambient sparkle stars */}
+        <path
+          d="M16 28L18 24L20 28L24 30L20 32L18 36L16 32L12 30L16 28Z"
+          fill="#c084fc"
+        />
+        <path
+          d="M64 24L65.5 20L67 24L71 25.5L67 27L65.5 31L64 27L60 25.5L64 24Z"
+          fill="#c084fc"
+        />
+        <circle cx="21" cy="56" r="2.5" fill="#d8b4fe" />
+        <circle cx="63" cy="52" r="2" fill="#d8b4fe" />
+
+        {/* Robot head */}
+        <rect x="22" y="24" width="36" height="32" rx="14" fill="#7c3aed" />
+
+        {/* Antenna */}
+        <line
+          x1="40"
+          y1="24"
+          x2="40"
+          y2="15"
+          stroke="#7c3aed"
+          strokeWidth="3"
+          strokeLinecap="round"
+        />
+        <circle cx="40" cy="14" r="3.5" fill="#a855f7" />
+
+        {/* Ears */}
+        <rect x="18" y="34" width="4" height="12" rx="2" fill="#6d28d9" />
+        <rect x="58" y="34" width="4" height="12" rx="2" fill="#6d28d9" />
+
+        {/* Visor Screen */}
+        <rect x="27" y="30" width="26" height="18" rx="8" fill="#1e1b4b" />
+
+        {/* Glowing Eyes */}
+        <circle cx="34" cy="39" r="3" fill="#67e8f9" />
+        <circle cx="46" cy="39" r="3" fill="#67e8f9" />
+      </svg>
+    </div>
+  );
+}
 
 export function DashboardView({
   dashboard,
@@ -55,7 +154,6 @@ export function DashboardView({
   };
   const ai = dashboard?.ai_analysis || {};
   const bed = dashboard?.bed || {};
-  const staff = dashboard?.staff || {};
 
   const total = summary.total_items || 1000;
   const critical = summary.critical_items || 86;
@@ -70,341 +168,429 @@ export function DashboardView({
 
   const occupancyVal = bed.bed_occupancy ? Number(bed.bed_occupancy) : 90.41;
 
-  // Fallback lists if AI response is empty
-  const keyRisks = (ai.key_risks && ai.key_risks.length > 0)
-    ? ai.key_risks
-    : [
-        "Critical inventory stockouts imminent",
-        `High bed occupancy (${occupancyVal}%)`,
-        "Staff overtime above normal levels",
-        "Surgical supplies running low",
-      ];
-
-  const recActions = (ai.recommended_actions && ai.recommended_actions.length > 0)
-    ? ai.recommended_actions
-    : [
-        "Order ventilators immediately",
-        "Increase bed capacity",
-        "Optimize staff scheduling",
-        "Replenish surgical supplies",
-      ];
-
-  const aiSummaryText = ai.summary ||
-    "AI Analysis indicates critical inventory shortages in life-saving equipment and high bed occupancy levels requiring immediate administrative intervention.";
+  // Critical operational items matching the table in screenshot
+  const criticalOperationalItems = [
+    {
+      id: 1,
+      name: "Paracetamol 500mg",
+      status: "Stock: 120",
+      riskLevel: "Critical",
+      riskColor: "red",
+      action: "Reorder Immediately",
+      actionCritical: true,
+      trend: "+15%",
+    },
+    {
+      id: 2,
+      name: "Surgical Gloves (M)",
+      status: "Stock: 340",
+      riskLevel: "High",
+      riskColor: "orange",
+      action: "Plan Procurement",
+      actionCritical: false,
+      trend: "+8%",
+    },
+    {
+      id: 3,
+      name: "N95 Masks",
+      status: "Stock: 210",
+      riskLevel: "High",
+      riskColor: "orange",
+      action: "Monitor Usage",
+      actionCritical: false,
+      trend: "-12%",
+    },
+    {
+      id: 4,
+      name: "Normal Saline 500ml",
+      status: "Stock: 180",
+      riskLevel: "High",
+      riskColor: "orange",
+      action: "Reorder Soon",
+      actionCritical: false,
+      trend: "+6%",
+    },
+    {
+      id: 5,
+      name: "Syringes 5ml",
+      status: "Stock: 420",
+      riskLevel: "Low",
+      riskColor: "green",
+      action: "No Action Required",
+      actionCritical: false,
+      trend: "-20%",
+    },
+  ];
 
   return (
     <div className="dashboard-content">
-      {/* 1. TOP 5 KPI CARDS ROW */}
-      <section className="kpi-row-5">
-        {/* Total Inventory */}
-        <div className="kpi-card-white" onClick={() => onNavigate("inventory")}>
-          <div className="kpi-icon-circle bg-circle-green">
-            <Boxes size={22} className="text-emerald" />
-          </div>
-          <div className="kpi-content">
-            <span className="kpi-label">Total Inventory Items</span>
-            <strong className="kpi-number">{total.toLocaleString()}</strong>
-            <span className="kpi-subtext">Monitored Assets</span>
-          </div>
+      {/* 1. HERO BANNER: Welcome Back + Hospital Graphic */}
+      <section className="dashboard-hero-banner">
+        <div className="hero-banner-left">
+          <span className="hero-eyebrow">HOSPITAL OPERATIONS PLATFORM</span>
+          <h1 className="hero-title">
+            Welcome back, <span className="hero-admin-highlight">Admin</span>
+          </h1>
+          <p className="hero-description">
+            Monitor resources, predict shortages and ensure better healthcare delivery.
+          </p>
         </div>
 
-        {/* Critical Items */}
-        <div className="kpi-card-white" onClick={() => onNavigate("inventory")}>
-          <div className="kpi-icon-circle bg-circle-red">
-            <AlertTriangle size={22} className="text-rose" />
-          </div>
-          <div className="kpi-content">
-            <span className="kpi-label">Critical Items</span>
-            <strong className="kpi-number">{critical}</strong>
-            <span className="kpi-subtext">Immediate Attention</span>
-          </div>
-        </div>
-
-        {/* High-Risk Items */}
-        <div className="kpi-card-white" onClick={() => onNavigate("inventory")}>
-          <div className="kpi-icon-circle bg-circle-orange">
-            <Shield size={22} className="text-orange" />
-          </div>
-          <div className="kpi-content">
-            <span className="kpi-label">High-Risk Items</span>
-            <strong className="kpi-number">{high}</strong>
-            <span className="kpi-subtext">Short Lead-time</span>
-          </div>
-        </div>
-
-        {/* Bed Occupancy */}
-        <div className="kpi-card-white" onClick={() => onNavigate("bed")}>
-          <div className="kpi-icon-circle bg-circle-green">
-            <BedDouble size={22} className="text-emerald" />
-          </div>
-          <div className="kpi-content">
-            <span className="kpi-label">Bed Occupancy</span>
-            <strong className="kpi-number">{occupancyVal}%</strong>
-            <span className="kpi-subtext">{bed.admissions ?? 27} Active Admissions</span>
-          </div>
-        </div>
-
-        {/* AI Risk Priority */}
-        <div className="kpi-card-white" onClick={() => onNavigate("ai")}>
-          <div className="kpi-icon-circle bg-circle-purple">
-            <Sparkles size={22} className="text-purple" />
-          </div>
-          <div className="kpi-content">
-            <span className="kpi-label">AI Risk Priority</span>
-            <strong className="kpi-number text-rose-bold">{ai.priority || "CRITICAL"}</strong>
-            <span className="kpi-subtext">Overall Risk Level</span>
+        <div className="hero-banner-right">
+          <div
+            className="hero-hospital-card"
+            style={{ backgroundImage: `url(${hospitalBannerImg})` }}
+          >
+            <div className="hero-hospital-pill">
+              <span>Efficient Hospitals. Stronger Communities.</span>
+              <div className="hero-hospital-arrow">
+                <ChevronRight size={14} />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* 2. MIDDLE ROW (INVENTORY DONUT & BED TREND) */}
-      <section className="grid-2-cols" style={{ marginTop: "24px" }}>
-        {/* Inventory Risk Overview */}
-        <div className="card-panel">
-          <div className="card-panel-header">
-            <h3 className="card-panel-title">Inventory Risk Overview</h3>
-            <div className="select-dropdown-wrap">
+      {/* 2. UPPER BOXES: TOP 5 KPI CARDS ROW */}
+      <section className="kpi-cards-grid">
+        {/* Card 1: Total Inventory Items */}
+        <KPICard
+          title="Total Inventory Items"
+          value={total.toLocaleString()}
+          subtitle="Monitored Assets"
+          icon={IsometricBoxesIcon}
+          variant="green"
+          trend={{
+            value: "+12%",
+            direction: "up",
+            label: "vs last week",
+            color: "green",
+          }}
+          sparklineVariant="green"
+          onClick={() => onNavigate("inventory")}
+        />
+
+        {/* Card 2: Critical Items */}
+        <KPICard
+          title="Critical Items"
+          value={critical.toLocaleString()}
+          subtitle="Immediate Attention"
+          icon={AlertTriangle}
+          variant="red"
+          trend={{
+            value: "8%",
+            direction: "arrow-up",
+            label: "vs last week",
+            color: "red",
+          }}
+          sparklineVariant="red"
+          onClick={() => onNavigate("inventory")}
+        />
+
+        {/* Card 3: High-Risk Items */}
+        <KPICard
+          title="High-Risk Items"
+          value={high.toLocaleString()}
+          subtitle="Short lead-time buffer"
+          icon={Shield}
+          variant="orange"
+          trend={{
+            value: "5%",
+            direction: "down",
+            label: "vs last week",
+            color: "green",
+          }}
+          sparklineVariant="orange"
+          onClick={() => onNavigate("inventory")}
+        />
+
+        {/* Card 4: Bed Occupancy */}
+        <KPICard
+          title="Bed Occupancy"
+          value={`${occupancyVal}%`}
+          subtitle={`${bed.admissions ?? 27} Active Admissions`}
+          icon={BedDouble}
+          variant="blue"
+          trend={{
+            value: "3%",
+            direction: "arrow-up",
+            label: "vs last week",
+            color: "red",
+          }}
+          sparklineVariant="blue"
+          onClick={() => onNavigate("bed")}
+        />
+
+        {/* Card 5: AI Risk Priority */}
+        <KPICard
+          title="AI Risk Priority"
+          value={ai.priority ? ai.priority : "Analysis unavailable"}
+          subtitle={
+            ai.priority
+              ? "Overall Risk Level"
+              : "AI service is currently unavailable"
+          }
+          icon={Sparkles}
+          variant="purple"
+          showInfo={true}
+          isStatusText={!ai.priority}
+          onClick={() => onNavigate("ai")}
+        />
+      </section>
+
+      {/* 3. MIDDLE ROW: INVENTORY RISK OVERVIEW & BED OCCUPANCY TREND */}
+      <section className="dashboard-grid-2">
+        {/* Left: Inventory Risk Overview */}
+        <div className="analytics-card">
+          <div className="analytics-card-header">
+            <div className="card-header-left">
+              <div className="card-header-icon-circle circle-green">
+                <BarChart2 size={18} className="text-emerald" />
+              </div>
+              <div>
+                <h3 className="analytics-card-title">Inventory Risk Overview</h3>
+                <p className="analytics-card-sub">
+                  Distribution of inventory items by risk level
+                </p>
+              </div>
+            </div>
+
+            <div className="dropdown-pill">
               <span>{categoryFilter}</span>
-              <ChevronDown size={15} />
+              <ChevronDown size={14} />
             </div>
           </div>
 
-          <div className="donut-overview-body">
+          <div className="inventory-donut-body">
             <DonutChart
               total={total}
               critical={critical}
               high={high}
               medium={medium}
               low={low}
+              size={195}
+              strokeWidth={24}
             />
 
-            <div className="donut-legend-list">
-              <div className="donut-legend-row">
-                <div className="legend-label-group">
-                  <span className="legend-dot dot-red"></span>
-                  <span className="legend-text">Critical Risk</span>
+            <div className="donut-legend-container">
+              {/* Critical Risk */}
+              <div className="donut-legend-item">
+                <div className="legend-label-col">
+                  <span className="legend-bullet bullet-red"></span>
+                  <span className="legend-name">Critical Risk</span>
                 </div>
-                <strong className="legend-val">{critical} ({critPct}%)</strong>
+                <div className="legend-value-col">
+                  <span className="legend-number">{critical} ({critPct}%)</span>
+                  <div className="legend-bar-track">
+                    <div
+                      className="legend-bar-fill fill-red"
+                      style={{ width: `${Math.min(100, Math.max(15, Number(critPct) * 1.5))}%` }}
+                    />
+                  </div>
+                </div>
               </div>
 
-              <div className="donut-legend-row">
-                <div className="legend-label-group">
-                  <span className="legend-dot dot-orange"></span>
-                  <span className="legend-text">High Risk</span>
+              {/* High Risk */}
+              <div className="donut-legend-item">
+                <div className="legend-label-col">
+                  <span className="legend-bullet bullet-orange"></span>
+                  <span className="legend-name">High Risk</span>
                 </div>
-                <strong className="legend-val">{high} ({highPct}%)</strong>
+                <div className="legend-value-col">
+                  <span className="legend-number">{high} ({highPct}%)</span>
+                  <div className="legend-bar-track">
+                    <div
+                      className="legend-bar-fill fill-orange"
+                      style={{ width: `${Math.min(100, Math.max(15, Number(highPct) * 1.2))}%` }}
+                    />
+                  </div>
+                </div>
               </div>
 
-              <div className="donut-legend-row">
-                <div className="legend-label-group">
-                  <span className="legend-dot dot-yellow"></span>
-                  <span className="legend-text">Medium Risk</span>
+              {/* Medium Risk */}
+              <div className="donut-legend-item">
+                <div className="legend-label-col">
+                  <span className="legend-bullet bullet-yellow"></span>
+                  <span className="legend-name">Medium Risk</span>
                 </div>
-                <strong className="legend-val">{medium} ({medPct}%)</strong>
+                <div className="legend-value-col">
+                  <span className="legend-number">{medium} ({medPct}%)</span>
+                  <div className="legend-bar-track">
+                    <div
+                      className="legend-bar-fill fill-yellow"
+                      style={{ width: `${Math.min(100, Math.max(15, Number(medPct) * 1.5))}%` }}
+                    />
+                  </div>
+                </div>
               </div>
 
-              <div className="donut-legend-row">
-                <div className="legend-label-group">
-                  <span className="legend-dot dot-green"></span>
-                  <span className="legend-text">Low Risk</span>
+              {/* Low Risk */}
+              <div className="donut-legend-item">
+                <div className="legend-label-col">
+                  <span className="legend-bullet bullet-green"></span>
+                  <span className="legend-name">Low Risk</span>
                 </div>
-                <strong className="legend-val">{low} ({lowPct}%)</strong>
+                <div className="legend-value-col">
+                  <span className="legend-number">{low} ({lowPct}%)</span>
+                  <div className="legend-bar-track">
+                    <div
+                      className="legend-bar-fill fill-green"
+                      style={{ width: `${Math.min(100, Math.max(15, Number(lowPct) * 1.4))}%` }}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Bed Occupancy Trend */}
-        <div className="card-panel">
-          <div className="card-panel-header">
-            <h3 className="card-panel-title">Bed Occupancy Trend</h3>
-            <div className="select-dropdown-wrap">
+        {/* Right: Bed Occupancy Trend */}
+        <div className="analytics-card">
+          <div className="analytics-card-header">
+            <div className="card-header-left">
+              <div className="card-header-icon-circle circle-green">
+                <TrendingUp size={18} className="text-emerald" />
+              </div>
+              <div>
+                <h3 className="analytics-card-title">Bed Occupancy Trend</h3>
+                <p className="analytics-card-sub">
+                  Daily bed occupancy rate over the last 7 days
+                </p>
+              </div>
+            </div>
+
+            <div className="dropdown-pill">
               <span>{timeRange}</span>
-              <ChevronDown size={15} />
+              <ChevronDown size={14} />
             </div>
           </div>
 
-          <div className="trend-chart-body">
+          <div className="chart-card-body">
             <TrendLineChart currentOccupancy={occupancyVal} />
           </div>
         </div>
       </section>
 
-      {/* 3. BOTTOM ROW (3 CARDS) */}
-      <section className="grid-3-cols" style={{ marginTop: "24px" }}>
-        {/* Card 1: AI Executive Summary */}
-        <div className="card-panel flex-col-justify">
-          <div>
-            <div className="card-panel-header-simple">
-              <Sparkles size={18} className="text-emerald" />
-              <h3 className="card-panel-title">AI Executive Summary</h3>
-            </div>
-
-            {/* Light Green Summary Box */}
-            <div className="ai-summary-callout">
-              <p>{aiSummaryText}</p>
-            </div>
-
-            {/* Key Risks & Recommended Actions */}
-            <div className="ai-two-columns">
-              <div className="ai-col">
-                <h4 className="ai-col-heading">Key Risks</h4>
-                <ul className="ai-bullet-list">
-                  {keyRisks.slice(0, 4).map((r, i) => (
-                    <li key={i}>
-                      <span className="bullet-point bullet-red">•</span>
-                      <span>{r}</span>
-                    </li>
-                  ))}
-                </ul>
+      {/* 4. BOTTOM ROW: CRITICAL OPERATIONAL RISKS & AI EXECUTIVE SUMMARY */}
+      <section className="dashboard-grid-2">
+        {/* Left: Critical Operational Risks */}
+        <div className="analytics-card">
+          <div className="analytics-card-header">
+            <div className="card-header-left">
+              <div className="card-header-icon-circle circle-red">
+                <AlertTriangle size={18} className="text-rose" />
               </div>
-
-              <div className="ai-col">
-                <h4 className="ai-col-heading">Recommended Actions</h4>
-                <ul className="ai-bullet-list">
-                  {recActions.slice(0, 4).map((a, i) => (
-                    <li key={i}>
-                      <span className="bullet-point bullet-green">•</span>
-                      <span>{a}</span>
-                    </li>
-                  ))}
-                </ul>
+              <div>
+                <h3 className="analytics-card-title">
+                  Critical Operational Risks
+                </h3>
+                <p className="analytics-card-sub">
+                  Items requiring immediate attention
+                </p>
               </div>
             </div>
+
+            <button
+              className="view-all-pill-btn"
+              onClick={() => onNavigate("inventory")}
+            >
+              <span>View All</span>
+              <ArrowRight size={13} />
+            </button>
           </div>
 
-          <div className="card-panel-footer">
-            <button className="text-link-btn" onClick={() => onNavigate("ai")}>
-              <span>View Full AI Analysis</span>
-              <ArrowRight size={14} />
-            </button>
+          <div className="table-responsive-clean">
+            <table className="operations-table">
+              <thead>
+                <tr>
+                  <th>Item / Resource</th>
+                  <th>Current Status</th>
+                  <th>Risk Level</th>
+                  <th>Action Required</th>
+                  <th>Trend</th>
+                </tr>
+              </thead>
+              <tbody>
+                {criticalOperationalItems.map((item) => (
+                  <tr key={item.id}>
+                    <td className="font-semibold text-slate-800">
+                      {item.name}
+                    </td>
+                    <td className="text-slate-500">{item.status}</td>
+                    <td>
+                      <div className="risk-level-cell">
+                        <span
+                          className={`risk-bullet bullet-${item.riskColor}`}
+                        />
+                        <span className="risk-level-text">
+                          {item.riskLevel}
+                        </span>
+                      </div>
+                    </td>
+                    <td>
+                      <span
+                        className={
+                          item.actionCritical
+                            ? "action-text-critical"
+                            : "action-text-normal"
+                        }
+                      >
+                        {item.action}
+                      </span>
+                    </td>
+                    <td>
+                      <TableSparkline trend={item.trend} />
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
 
-        {/* Card 2: Recent Recommendations */}
-        <div className="card-panel flex-col-justify">
+        {/* Right: AI Executive Summary */}
+        <div className="analytics-card flex-between">
           <div>
-            <div className="card-panel-header">
-              <h3 className="card-panel-title">Recent Recommendations</h3>
-              <button className="header-view-all-link" onClick={() => onNavigate("recommendations")}>
-                View All
+            <div className="analytics-card-header">
+              <div className="card-header-left">
+                <div className="card-header-icon-circle circle-purple">
+                  <Sparkles size={18} className="text-purple" />
+                </div>
+                <div>
+                  <h3 className="analytics-card-title">AI Executive Summary</h3>
+                  <p className="analytics-card-sub">
+                    AI-powered insights and risk analysis
+                  </p>
+                </div>
+              </div>
+
+              <button
+                className="view-all-pill-btn"
+                onClick={() => onNavigate("ai")}
+              >
+                <span>View Details</span>
+                <ArrowRight size={13} />
               </button>
             </div>
 
-            <div className="recommendations-list">
-              {/* Item 1 */}
-              <div className="rec-list-item">
-                <div className="rec-icon-circle bg-circle-red">
-                  <ShoppingCart size={17} className="text-rose" />
-                </div>
-                <div className="rec-item-info">
-                  <strong className="rec-item-title">Order 15 Ventilators</strong>
-                  <span className="rec-item-sub">Critical shortage • Est. Cost: ₹22,50,000</span>
-                </div>
-                <span className="rec-time-badge">10 min ago</span>
-              </div>
-
-              {/* Item 2 */}
-              <div className="rec-list-item">
-                <div className="rec-icon-circle bg-circle-orange">
-                  <BedDouble size={17} className="text-orange" />
-                </div>
-                <div className="rec-item-info">
-                  <strong className="rec-item-title">Increase ICU Capacity</strong>
-                  <span className="rec-item-sub">High bed occupancy • Est. Cost: ₹8,00,000</span>
-                </div>
-                <span className="rec-time-badge">25 min ago</span>
-              </div>
-
-              {/* Item 3 */}
-              <div className="rec-list-item">
-                <div className="rec-icon-circle bg-circle-green">
-                  <Users size={17} className="text-emerald" />
-                </div>
-                <div className="rec-item-info">
-                  <strong className="rec-item-title">Staff Schedule Optimization</strong>
-                  <span className="rec-item-sub">High overtime • Est. Impact: ₹1,20,000/month</span>
-                </div>
-                <span className="rec-time-badge">1 hour ago</span>
-              </div>
-
-              {/* Item 4 */}
-              <div className="rec-list-item">
-                <div className="rec-icon-circle bg-circle-blue">
-                  <ClipboardList size={17} className="text-blue" />
-                </div>
-                <div className="rec-item-info">
-                  <strong className="rec-item-title">Routine Inventory Review</strong>
-                  <span className="rec-item-sub">Standard check • Est. Cost: ₹50,000</span>
-                </div>
-                <span className="rec-time-badge">2 hours ago</span>
-              </div>
+            {/* AI Offline / Unavailable State matching screenshot */}
+            <div className="ai-empty-state">
+              <AIMascotIcon />
+              <h4 className="ai-empty-title">
+                AI analysis is currently unavailable
+              </h4>
+              <p className="ai-empty-desc">
+                The AI service is not responding at the moment. Please check the backend connection or API credentials.
+              </p>
+              <button
+                className="ai-retry-pill-btn"
+                onClick={onRefresh}
+                title="Retry AI Analysis"
+              >
+                <RefreshCw size={14} />
+                <span>Retry Analysis</span>
+              </button>
             </div>
-          </div>
-
-          <div className="card-panel-footer">
-            <button className="text-link-btn" onClick={() => onNavigate("recommendations")}>
-              <span>View All Recommendations</span>
-              <ArrowRight size={14} />
-            </button>
-          </div>
-        </div>
-
-        {/* Card 3: System Status */}
-        <div className="card-panel flex-col-justify">
-          <div>
-            <div className="card-panel-header">
-              <h3 className="card-panel-title">System Status</h3>
-            </div>
-
-            <div className="system-status-list">
-              <div className="sys-status-row">
-                <div className="sys-label-wrap">
-                  <CheckCircle2 size={16} className="text-emerald" />
-                  <span>Backend API</span>
-                </div>
-                <strong className="text-emerald font-semibold">Online</strong>
-              </div>
-
-              <div className="sys-status-row">
-                <div className="sys-label-wrap">
-                  <CheckCircle2 size={16} className="text-emerald" />
-                  <span>Database</span>
-                </div>
-                <strong className="text-emerald font-semibold">Connected</strong>
-              </div>
-
-              <div className="sys-status-row">
-                <div className="sys-label-wrap">
-                  <CheckCircle2 size={16} className="text-emerald" />
-                  <span>AI Service (Gemini)</span>
-                </div>
-                <strong className="text-emerald font-semibold">Operational</strong>
-              </div>
-
-              <div className="sys-status-row">
-                <div className="sys-label-wrap">
-                  <CheckCircle2 size={16} className="text-emerald" />
-                  <span>Prediction Engine</span>
-                </div>
-                <strong className="text-emerald font-semibold">Active</strong>
-              </div>
-
-              <div className="sys-status-row">
-                <div className="sys-label-wrap">
-                  <CheckCircle2 size={16} className="text-emerald" />
-                  <span>Last Data Sync</span>
-                </div>
-                <strong className="text-emerald font-semibold">2 min ago</strong>
-              </div>
-            </div>
-          </div>
-
-          <div className="card-panel-footer">
-            <button className="text-link-btn" onClick={() => onNavigate("system")}>
-              <span>View System Details</span>
-              <ArrowRight size={14} />
-            </button>
           </div>
         </div>
       </section>

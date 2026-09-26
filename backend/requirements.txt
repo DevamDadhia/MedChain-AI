@@ -5,3 +5,4 @@ pydantic-settings
 pandas
 scikit-learn
 joblib
+google-genai
