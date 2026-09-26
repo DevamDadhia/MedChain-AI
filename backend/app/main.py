@@ -5,9 +5,6 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.prediction_api import router as prediction_router
-from app.system_api import router as system_router
-
 from app.config import (
     APP_ENV,
     APP_NAME,
@@ -16,6 +13,8 @@ from app.config import (
     CORS_ORIGINS,
 )
 
+from app.prediction_api import router as prediction_router
+from app.system_api import router as system_router
 
 from app.decision_engine import (
     router as recommendation_router,
@@ -86,7 +85,6 @@ async def global_exception_handler(
     request: Request,
     exc: Exception,
 ):
-
     logger.exception(
         "Unhandled error on %s %s",
         request.method,
@@ -109,8 +107,6 @@ async def global_exception_handler(
 
 app.include_router(prediction_router)
 app.include_router(system_router)
-app.include_router(system_router)
-app.include_router(system_router)
 app.include_router(recommendation_router)
 app.include_router(ai_router)
 
@@ -123,7 +119,6 @@ def get_table_data(
     table_name: str,
     limit: int = 100,
 ):
-
     allowed_tables = {
         "inventory": "hospital_inventory",
         "staff": "hospital_staff",
@@ -135,15 +130,12 @@ def get_table_data(
     }
 
     if table_name not in allowed_tables:
-
         raise HTTPException(
             status_code=404,
             detail="Unknown data resource.",
         )
 
-    actual_table = allowed_tables[
-        table_name
-    ]
+    actual_table = allowed_tables[table_name]
 
     limit = min(
         max(limit, 1),
@@ -153,11 +145,7 @@ def get_table_data(
     connection = None
 
     try:
-
-        connection = sqlite3.connect(
-            str(DATABASE)
-        )
-
+        connection = sqlite3.connect(str(DATABASE))
         connection.row_factory = sqlite3.Row
 
         cursor = connection.cursor()
@@ -175,7 +163,6 @@ def get_table_data(
         ]
 
     except Exception as exc:
-
         logger.exception(
             "Database query failed: %s",
             actual_table,
@@ -187,7 +174,6 @@ def get_table_data(
         ) from exc
 
     finally:
-
         if connection:
             connection.close()
 
@@ -198,7 +184,6 @@ def get_table_data(
 
 @app.get("/")
 def root():
-
     return {
         "application": APP_NAME,
         "status": "online",
@@ -218,7 +203,6 @@ def root():
     response_model=HealthResponse,
 )
 def health_check():
-
     return {
         "status": "healthy",
         "service": "healthgrid-backend",
@@ -237,9 +221,7 @@ def health_check():
 def readiness_check():
 
     try:
-
         if not DATABASE.exists():
-
             return JSONResponse(
                 status_code=503,
                 content={
@@ -248,13 +230,9 @@ def readiness_check():
                 },
             )
 
-        connection = sqlite3.connect(
-            str(DATABASE)
-        )
+        connection = sqlite3.connect(str(DATABASE))
 
-        connection.execute(
-            "SELECT 1"
-        )
+        connection.execute("SELECT 1")
 
         connection.close()
 
@@ -264,7 +242,6 @@ def readiness_check():
         }
 
     except Exception:
-
         logger.exception(
             "Readiness check failed."
         )
@@ -284,7 +261,6 @@ def readiness_check():
 
 @app.get("/api-info")
 def api_info():
-
     return {
         "application": APP_NAME,
         "version": API_VERSION,
@@ -339,7 +315,6 @@ def api_info():
 def get_inventory(
     limit: int = 100,
 ):
-
     data = get_table_data(
         "inventory",
         limit,
@@ -359,7 +334,6 @@ def get_inventory(
 def get_staff(
     limit: int = 100,
 ):
-
     data = get_table_data(
         "staff",
         limit,
@@ -379,7 +353,6 @@ def get_staff(
 def get_patients(
     limit: int = 100,
 ):
-
     data = get_table_data(
         "patients",
         limit,
@@ -399,7 +372,6 @@ def get_patients(
 def get_vendors(
     limit: int = 100,
 ):
-
     data = get_table_data(
         "vendors",
         limit,
@@ -419,7 +391,6 @@ def get_vendors(
 def get_financial(
     limit: int = 100,
 ):
-
     data = get_table_data(
         "financial",
         limit,
@@ -439,7 +410,6 @@ def get_financial(
 def get_timeseries(
     limit: int = 100,
 ):
-
     data = get_table_data(
         "timeseries",
         limit,
@@ -459,7 +429,6 @@ def get_timeseries(
 def get_medicines(
     limit: int = 100,
 ):
-
     data = get_table_data(
         "medicines",
         limit,
@@ -483,12 +452,9 @@ def get_medicines(
 def dashboard():
 
     try:
-
         result = generate_recommendations()
 
-        inventory = result.get(
-            "inventory"
-        )
+        inventory = result.get("inventory")
 
         # ----------------------------------------------------
         # INVENTORY SUMMARY
@@ -498,7 +464,6 @@ def dashboard():
             inventory is None
             or inventory.empty
         ):
-
             inventory_summary = {
                 "total_items": 0,
                 "critical_items": 0,
@@ -510,44 +475,33 @@ def dashboard():
             top_risks = []
 
         else:
-
             inventory_summary = {
-                "total_items": len(
-                    inventory
-                ),
+                "total_items": len(inventory),
 
                 "critical_items": int(
                     (
-                        inventory[
-                            "risk_level"
-                        ]
+                        inventory["risk_level"]
                         == "CRITICAL"
                     ).sum()
                 ),
 
                 "high_risk_items": int(
                     (
-                        inventory[
-                            "risk_level"
-                        ]
+                        inventory["risk_level"]
                         == "HIGH"
                     ).sum()
                 ),
 
                 "medium_risk_items": int(
                     (
-                        inventory[
-                            "risk_level"
-                        ]
+                        inventory["risk_level"]
                         == "MEDIUM"
                     ).sum()
                 ),
 
                 "low_risk_items": int(
                     (
-                        inventory[
-                            "risk_level"
-                        ]
+                        inventory["risk_level"]
                         == "LOW"
                     ).sum()
                 ),
@@ -555,9 +509,7 @@ def dashboard():
 
             top_risks = (
                 inventory[
-                    inventory[
-                        "risk_level"
-                    ].isin(
+                    inventory["risk_level"].isin(
                         [
                             "CRITICAL",
                             "HIGH",
@@ -575,17 +527,10 @@ def dashboard():
         # ----------------------------------------------------
 
         ai_context = {
-            "inventory_summary":
-                inventory_summary,
-
-            "top_inventory_risks":
-                top_risks,
-
-            "bed":
-                result.get("bed"),
-
-            "staff":
-                result.get("staff"),
+            "inventory_summary": inventory_summary,
+            "top_inventory_risks": top_risks,
+            "bed": result.get("bed"),
+            "staff": result.get("staff"),
         }
 
         # ----------------------------------------------------
@@ -593,15 +538,11 @@ def dashboard():
         # ----------------------------------------------------
 
         try:
-
-            ai_analysis = (
-                analyze_healthcare_context(
-                    ai_context
-                )
+            ai_analysis = analyze_healthcare_context(
+                ai_context
             )
 
         except Exception as ai_error:
-
             logger.exception(
                 "AI analysis failed."
             )
@@ -614,9 +555,7 @@ def dashboard():
                 "key_risks": [],
                 "recommended_actions": [],
                 "priority": "UNKNOWN",
-                "error": str(
-                    ai_error
-                ),
+                "error": str(ai_error),
             }
 
         # ----------------------------------------------------
@@ -625,23 +564,17 @@ def dashboard():
 
         return {
             "status": "success",
-            "inventory_summary":
-                inventory_summary,
-            "top_inventory_risks":
-                top_risks,
-            "bed":
-                result.get("bed"),
-            "staff":
-                result.get("staff"),
-            "ai_analysis":
-                ai_analysis,
+            "inventory_summary": inventory_summary,
+            "top_inventory_risks": top_risks,
+            "bed": result.get("bed"),
+            "staff": result.get("staff"),
+            "ai_analysis": ai_analysis,
         }
 
     except HTTPException:
         raise
 
     except Exception as exc:
-
         logger.exception(
             "Dashboard generation failed."
         )
@@ -650,4 +583,3 @@ def dashboard():
             status_code=500,
             detail="Dashboard generation failed.",
         ) from exc
-
